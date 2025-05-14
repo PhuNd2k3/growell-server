@@ -1,9 +1,204 @@
 {
+  "users": [
+    {
+      "id": "1",
+      "name": "Nguyen Van A",
+      "university": "Đại học Bách Khoa Hà Nội",
+      "major": "Công nghệ thông tin",
+      "skills": [
+        "Java",
+        "React",
+        "SQL"
+      ],
+      "languages": [
+        "Tiếng Nhật - N3",
+        "Tiếng Anh - IELTS 6.0"
+      ],
+      "preferredIndustries": [
+        "Phân tích dữ liệu",
+        "Phát triển phần mềm"
+      ],
+      "workHours": "<20h",
+      "internshipMode": "Hybrid"
+    },
+    {
+      "id": "4d96",
+      "name": "Đẳng cấp"
+    },
+    {
+      "id": "a648",
+      "name": "siuuuu"
+    }
+  ],
+  "companies": [
+    {
+      "id": "1",
+      "name": "FPT Software",
+      "industry": "Phát triển phần mềm",
+      "description": "Công ty phần mềm lớn tại Việt Nam",
+      "score": 4.5,
+      "comments": [
+        1
+      ],
+      "relatedPosts": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Toyota Vietnam",
+      "industry": "Kỹ thuật cơ khí",
+      "description": "Doanh nghiệp lớn trong ngành ô tô",
+      "score": 4,
+      "comments": [],
+      "relatedPosts": []
+    },
+    {
+      "id": "3",
+      "name": "Công ty Cổ phần MISA",
+      "website": "https://www.misa.vn/",
+      "address": "Cầu Giấy, Hà Nội",
+      "employees": "3000+ nhân viên",
+      "industry": "Công nghệ",
+      "description": "Công ty hàng đầu Việt Nam cung cấp giải pháp chuyển đổi số toàn diện SaaS",
+      "about": "Trong suốt hành trình gần 30 năm tiên phong, MISA tự hào là công ty hàng đầu Việt Nam cung cấp giải pháp chuyển đổi số toàn diện SaaS (Software-as-a-Service) với gần 60 sản phẩm, ứng dụng cho 350.000 khách hàng là cơ quan nhà nước, doanh nghiệp, hộ kinh doanh và 3,5 triệu khách hàng cá nhân tại Việt Nam và 22 quốc gia trên thế giới. MISA vinh dự khi được đồng hành cùng các Bộ, ban, ngành trong chương trình Chuyển đổi số quốc gia, tự động hoá hoạt động quản lý, kinh doanh, giúp nâng cao năng suất và góp phần vào sự phát triển chung của Việt Nam.",
+      "jobs": [
+        {
+          "id": "job1",
+          "title": "Business Analyst",
+          "location": "Hà Nội",
+          "salary": "10 triệu",
+          "type": "Toàn thời gian",
+          "posted": "2024-05-12T09:00:00Z",
+          "description": "MISA tự hào là công ty hàng đầu Việt Nam cung cấp giải pháp chuyển đổi số toàn diện SaaS với gần 60 sản phẩm, ứng dụng cho 350.000 khách hàng là cơ quan nhà nước, doanh nghiệp, hộ kinh doanh."
+        },
+        {
+          "id": "job2",
+          "title": "Product Manager",
+          "location": "Hà Nội",
+          "salary": "30 triệu",
+          "type": "Toàn thời gian",
+          "posted": "2024-05-12T09:00:00Z",
+          "description": "MISA tự hào là công ty hàng đầu Việt Nam cung cấp giải pháp chuyển đổi số toàn diện SaaS với gần 60 sản phẩm, ứng dụng cho 350.000 khách hàng là cơ quan nhà nước, doanh nghiệp, hộ kinh doanh."
+        },
+        {
+          "id": "job3",
+          "title": "Data Analyst",
+          "location": "Hà Nội",
+          "salary": "10 triệu",
+          "type": "Toàn thời gian",
+          "posted": "2024-05-12T09:00:00Z",
+          "description": "MISA tự hào là công ty hàng đầu Việt Nam cung cấp giải pháp chuyển đổi số toàn diện SaaS với gần 60 sản phẩm, ứng dụng cho 350.000 khách hàng là cơ quan nhà nước, doanh nghiệp, hộ kinh doanh."
+        },
+        {
+          "id": "job4",
+          "title": "UI Designer",
+          "location": "Hà Nội",
+          "salary": "10 triệu",
+          "type": "Toàn thời gian",
+          "posted": "2024-05-12T09:00:00Z",
+          "description": "MISA tự hào là công ty hàng đầu Việt Nam cung cấp giải pháp chuyển đổi số toàn diện SaaS với gần 60 sản phẩm, ứng dụng cho 350.000 khách hàng là cơ quan nhà nước, doanh nghiệp, hộ kinh doanh."
+        }
+      ],
+      "reviews": [
+        {
+          "id": "review1",
+          "user": "Ngô Thức",
+          "rating": 4,
+          "content": "Văn phòng hiện đại, thoáng mát. Văn hoá mở, đề cao sự chủ động và học hỏi. Tuy nhiên, đôi khi áp lực tiến độ khiến không khí căng thẳng vào cuối quý. Mức lương ở mức trung bình ngành. Phúc lợi cơ bản đầy đủ (BHXH, nghỉ phép), có thêm quỹ đào tạo nội bộ nhưng không nhiều trợ cấp khác. Không có bonus rõ ràng theo hiệu suất cá nhân.",
+          "date": "2024-05-12T09:00:00Z",
+          "replies": [
+            {
+              "id": "reply1",
+              "user": "Hoàng Phong",
+              "content": "Bạn có thể chia sẻ thêm về cơ hội phát triển khi làm việc tại đây không?",
+              "date": "2024-05-12T21:00:00Z"
+            },
+            {
+              "id": "reply2",
+              "user": "Ngô Thức",
+              "content": "Công ty khuyến khích học thêm, có hỗ trợ học phí khoá ngắn hạn. Quản lý sẵn sàng coaching. Tuy nhiên lộ trình thăng tiến chưa rõ ràng với các cấp bậc chuyên viên.",
+              "date": "2024-05-12T21:30:00Z"
+            }
+          ]
+        }
+      ],
+      "rating": 4.0,
+      "ratingCount": 121
+    }
+  ],
   "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+    {
+      "id": "1",
+      "userId": 1,
+      "companyId": 1,
+      "title": "Trải nghiệm thực tập tại FPT Software",
+      "content": "Môi trường làm việc năng động, mentor nhiệt tình.",
+      "comments": [
+        1,
+        2
+      ],
+      "upvotes": 10,
+      "downvotes": 1,
+      "tags": [
+        "FPT",
+        "Internship"
+      ]
+    },
+    {
+      "id": "2",
+      "userId": 1,
+      "companyId": 1,
+      "title": "Có nên chọn FPT làm nơi thực tập không?",
+      "content": "Mình đang phân vân giữa FPT và Viettel.",
+      "comments": [],
+      "upvotes": 4,
+      "downvotes": 0,
+      "tags": [
+        "FPT",
+        "Viettel"
+      ]
+    }
   ],
   "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+    {
+      "id": "1",
+      "postId": 1,
+      "userId": 1,
+      "content": "Cảm ơn bạn đã chia sẻ, mình cũng định apply vào đây!"
+    },
+    {
+      "id": "2",
+      "postId": 1,
+      "userId": 1,
+      "content": "Mentor ở đó có hướng dẫn kỹ không bạn?"
+    }
   ],
-  "profile": { "name": "typicode" }
+  "votes": [
+    {
+      "id": "1",
+      "postId": 1,
+      "userId": 1,
+      "type": "upvote"
+    },
+    {
+      "id": "2",
+      "postId": 1,
+      "userId": 2,
+      "type": "downvote"
+    },
+    {
+      "id": "340a",
+      "postId": 1,
+      "userId": 99,
+      "type": "upvote"
+    },
+    {
+      "id": "a20c",
+      "postId": 1,
+      "userId": 5,
+      "type": "downvote"
+    }
+  ]
 }
