@@ -4,7 +4,11 @@ const jsonServer = require('json-server')
 const forumApi = require('./forumApi')
 
 const server = express()
-const router = jsonServer.router('db.json')
+
+// Tạo memory database từ db.json
+const db = require('./db.json')
+const router = jsonServer.router(db)  // Truyền object thay vì file path
+
 const middlewares = jsonServer.defaults()
 
 // Middleware
