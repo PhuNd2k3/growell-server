@@ -88,6 +88,51 @@ server.patch('/votes/:id', (req, res) => {
     return res.json({ success: true, message: 'Cập nhật vote thành công', data: updatedVote });
 });
 
+server.get('/distinct-skills', (req, res) => {
+    const db = router.db;
+
+    const technicalSkills = new Set();
+    const softSkills = new Set();
+    const personalTraits = new Set();
+    const languageRequirements = new Set();
+    const universities = new Set();
+    const majors = new Set();
+
+    db.get('companies').value().forEach(company => {
+        company.recruitment?.jobs?.forEach(job => {
+            job.technical_skills?.forEach(skill => technicalSkills.add(skill));
+            job.soft_skills?.forEach(skill => softSkills.add(skill));
+            job.personal_traits?.forEach(trait => personalTraits.add(trait));
+
+            if (job.language_requirement) {
+                languageRequirements.add(job.language_requirement);
+            }
+
+            if (job.student_target) {
+                if (job.student_target.university) {
+                    universities.add(job.student_target.university);
+                }
+
+                if (job.student_target.majors) {
+                    job.student_target.majors.split(',').forEach(major => {
+                        majors.add(major.trim());
+                    });
+                }
+            }
+        });
+    });
+
+    return res.json({
+        technical_skills: Array.from(technicalSkills),
+        soft_skills: Array.from(softSkills),
+        personal_traits: Array.from(personalTraits),
+        language_requirements: Array.from(languageRequirements),
+        universities: Array.from(universities),
+        majors: Array.from(majors)
+    });
+});
+
+
 // Add this before server.use(router)
 server.use(jsonServer.rewriter({
     '/api/*': '/$1',
