@@ -28,41 +28,338 @@
     {
       "id": "a648",
       "name": "siuuuu"
+    },
+    {
+      "id": "11c5",
+      "name": "Phú"
+    }
+  ],
+  "posts": [
+    {
+      "id": "1",
+      "userId": 1,
+      "companyId": 1,
+      "title": "Trải nghiệm thực tập tại FPT Software",
+      "content": "Môi trường làm việc năng động, mentor nhiệt tình.",
+      "upvotes": 10,
+      "downvotes": 1,
+      "tags": [
+        "FPT",
+        "Internship"
+      ]
+    },
+    {
+      "id": "2",
+      "userId": 1,
+      "companyId": 1,
+      "title": "Có nên chọn FPT làm nơi thực tập không?",
+      "content": "Mình đang phân vân giữa FPT và Viettel.",
+      "upvotes": 4,
+      "downvotes": 0,
+      "tags": [
+        "FPT",
+        "Viettel"
+      ]
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "postId": 1,
+      "userId": 1,
+      "content": "Cảm ơn bạn đã chia sẻ, mình cũng định apply vào đây!"
+    },
+    {
+      "id": "2",
+      "postId": 1,
+      "userId": 1,
+      "content": "Mentor ở đó có hướng dẫn kỹ không bạn?"
+    }
+  ],
+  "postComments": [
+    {
+      "id": "7621",
+      "postId": "1",
+      "userId": "a648",
+      "content": "Test comment qua Postman",
+      "createdAt": "2025-05-16T19:00:00.000Z"
+    }
+  ],
+  "votes": [
+    {
+      "id": "1",
+      "postId": 1,
+      "userId": 1,
+      "type": "upvote"
+    },
+    {
+      "id": "2",
+      "postId": 1,
+      "userId": 2,
+      "type": "downvote"
+    },
+    {
+      "id": "340a",
+      "postId": 1,
+      "userId": 99,
+      "type": "upvote"
+    },
+    {
+      "id": "a20c",
+      "postId": 1,
+      "userId": 5,
+      "type": "downvote"
     }
   ],
   "companies": [
     {
       "id": "1",
       "name": "FPT Software",
-      "industry": "Phát triển phần mềm",
+      "about": "Trong hơn 15 năm hoạt động, 247Express đã khẳng định vị thế là công ty logistics hàng đầu tại Việt Nam, cung cấp các giải pháp giao hàng nhanh và hiệu quả với mạng lưới rộng khắp cả nước. 247Express cam kết mang đến trải nghiệm vận chuyển tối ưu, hỗ trợ doanh nghiệp và cá nhân trong việc kết nối và phát triển kinh doanh.",
       "description": "Công ty phần mềm lớn tại Việt Nam",
       "score": 4.5,
+      "address": "Tầng 10, Tòa nhà CT Group, 197 Trần Huy Liệu, Phường Trung Liệt, Quận Đống Đa, Hà Nội",
+      "website": "https://247express.vn/",
+      "employees": "500-1000",
+      "industry": "Phát triển phần mềm",
+      "followers": "not available",
+      "recruitment": {
+        "is_hiring": true,
+        "jobs": [
+          {
+            "id": "6dfeeb50-56ce-4da0-baa2-5d3fb14097af",
+            "location": "Hoàn Kiếm",
+            "title": "Logistics Coordinator",
+            "description": "Phối hợp các hoạt động vận chuyển, theo dõi đơn hàng và làm việc với đối tác vận tải.",
+            "technical_skills": [
+              "Quản lý chuỗi cung ứng",
+              "Excel",
+              "Phần mềm logistics"
+            ],
+            "soft_skills": [
+              "Giao tiếp",
+              "Giải quyết vấn đề"
+            ],
+            "personal_traits": [
+              "Kỷ luật",
+              "Tổ chức tốt"
+            ],
+            "working_type": "Full-time",
+            "working_mode": "Offline",
+            "salary": "10,000,000 - 14,000,000 VND",
+            "posted_time": "3 ngày trước",
+            "working_hours_per_week": "40h/tuần",
+            "student_target": {
+              "university": "Đại học Bách Khoa",
+              "majors": "Logistics, Quản lý công nghiệp, Kinh tế vận tải"
+            },
+            "field": "Logistics",
+            "language_requirement": "Tiếng Anh cơ bản",
+            "compensation_support": "Có phụ cấp ăn trưa 800,000 VND"
+          },
+          {
+            "id": "88525a3e-a2ba-450f-b142-f37a1bada8a7",
+            "location": "Hai Bà Trưng",
+            "title": "Delivery Driver",
+            "description": "Giao hàng nội thành, theo tuyến cố định, đảm bảo thời gian và chất lượng.",
+            "technical_skills": [
+              "Sử dụng ứng dụng định vị",
+              "Hiểu biết địa lý thành phố"
+            ],
+            "soft_skills": [
+              "Giao tiếp khách hàng",
+              "Quản lý thời gian"
+            ],
+            "personal_traits": [
+              "Trách nhiệm",
+              "Cẩn thận"
+            ],
+            "working_type": "Part-time",
+            "working_mode": "Offline",
+            "salary": "Tính theo đơn hàng (5,000 VND/đơn)",
+            "posted_time": "1 ngày trước",
+            "working_hours_per_week": "<20h/tuần",
+            "student_target": {
+              "university": "Đại học Bách Khoa",
+              "majors": "Không yêu cầu chuyên ngành"
+            },
+            "field": "Giao nhận",
+            "language_requirement": "Không yêu cầu",
+            "compensation_support": "Hỗ trợ xăng xe 500,000 VND/tháng"
+          }
+        ]
+      },
       "comments": [
         1
       ],
       "relatedPosts": [
         1,
         2
-      ]
+      ],
+      "rating": 4.5,
+      "ratingCount": 0,
+      "reviews": []
     },
     {
       "id": "2",
       "name": "Toyota Vietnam",
-      "industry": "Kỹ thuật cơ khí",
+      "about": "Trong hơn 15 năm hoạt động, 247Express đã khẳng định vị thế là công ty logistics hàng đầu tại Việt Nam, cung cấp các giải pháp giao hàng nhanh và hiệu quả với mạng lưới rộng khắp cả nước. 247Express cam kết mang đến trải nghiệm vận chuyển tối ưu, hỗ trợ doanh nghiệp và cá nhân trong việc kết nối và phát triển kinh doanh.",
       "description": "Doanh nghiệp lớn trong ngành ô tô",
       "score": 4,
+      "address": "Tầng 10, Tòa nhà CT Group, 197 Trần Huy Liệu, Phường Trung Liệt, Quận Đống Đa, Hà Nội",
+      "website": "https://247express.vn/",
+      "employees": "500-1000",
+      "industry": "Kỹ thuật cơ khí",
+      "followers": "not available",
+      "recruitment": {
+        "is_hiring": true,
+        "jobs": [
+          {
+            "id": "6dfeeb50-56ce-4da0-baa2-5d3fb14097af",
+            "location": "Hoàn Kiếm",
+            "title": "Logistics Coordinator",
+            "description": "Phối hợp các hoạt động vận chuyển, theo dõi đơn hàng và làm việc với đối tác vận tải.",
+            "technical_skills": [
+              "Quản lý chuỗi cung ứng",
+              "Excel",
+              "Phần mềm logistics"
+            ],
+            "soft_skills": [
+              "Giao tiếp",
+              "Giải quyết vấn đề"
+            ],
+            "personal_traits": [
+              "Kỷ luật",
+              "Tổ chức tốt"
+            ],
+            "working_type": "Full-time",
+            "working_mode": "Offline",
+            "salary": "10,000,000 - 14,000,000 VND",
+            "posted_time": "3 ngày trước",
+            "working_hours_per_week": "40h/tuần",
+            "student_target": {
+              "university": "Đại học Bách Khoa",
+              "majors": "Logistics, Quản lý công nghiệp, Kinh tế vận tải"
+            },
+            "field": "Logistics",
+            "language_requirement": "Tiếng Anh cơ bản",
+            "compensation_support": "Có phụ cấp ăn trưa 800,000 VND"
+          },
+          {
+            "id": "88525a3e-a2ba-450f-b142-f37a1bada8a7",
+            "location": "Hai Bà Trưng",
+            "title": "Delivery Driver",
+            "description": "Giao hàng nội thành, theo tuyến cố định, đảm bảo thời gian và chất lượng.",
+            "technical_skills": [
+              "Sử dụng ứng dụng định vị",
+              "Hiểu biết địa lý thành phố"
+            ],
+            "soft_skills": [
+              "Giao tiếp khách hàng",
+              "Quản lý thời gian"
+            ],
+            "personal_traits": [
+              "Trách nhiệm",
+              "Cẩn thận"
+            ],
+            "working_type": "Part-time",
+            "working_mode": "Offline",
+            "salary": "Tính theo đơn hàng (5,000 VND/đơn)",
+            "posted_time": "1 ngày trước",
+            "working_hours_per_week": "<20h/tuần",
+            "student_target": {
+              "university": "Đại học Bách Khoa",
+              "majors": "Không yêu cầu chuyên ngành"
+            },
+            "field": "Giao nhận",
+            "language_requirement": "Không yêu cầu",
+            "compensation_support": "Hỗ trợ xăng xe 500,000 VND/tháng"
+          }
+        ]
+      },
       "comments": [],
-      "relatedPosts": []
+      "relatedPosts": [],
+      "rating": 4,
+      "ratingCount": 0,
+      "reviews": []
     },
     {
       "id": "3",
       "name": "Công ty Cổ phần MISA",
-      "website": "https://www.misa.vn/",
+      "about": "Trong suốt hành trình gần 30 năm tiên phong, MISA tự hào là công ty hàng đầu Việt Nam cung cấp giải pháp chuyển đổi số toàn diện SaaS (Software-as-a-Service) với gần 60 sản phẩm, ứng dụng cho 350.000 khách hàng là cơ quan nhà nước, doanh nghiệp, hộ kinh doanh và 3,5 triệu khách hàng cá nhân tại Việt Nam và 22 quốc gia trên thế giới. MISA vinh dự khi được đồng hành cùng các Bộ, ban, ngành trong chương trình Chuyển đổi số quốc gia, tự động hoá hoạt động quản lý, kinh doanh, giúp nâng cao năng suất và góp phần vào sự phát triển chung của Việt Nam.",
+      "description": "Công ty hàng đầu Việt Nam cung cấp giải pháp chuyển đổi số toàn diện SaaS",
+      "score": 4.2,
       "address": "Cầu Giấy, Hà Nội",
+      "website": "https://www.misa.vn/",
       "employees": "3000+ nhân viên",
       "industry": "Công nghệ",
-      "description": "Công ty hàng đầu Việt Nam cung cấp giải pháp chuyển đổi số toàn diện SaaS",
-      "about": "Trong suốt hành trình gần 30 năm tiên phong, MISA tự hào là công ty hàng đầu Việt Nam cung cấp giải pháp chuyển đổi số toàn diện SaaS (Software-as-a-Service) với gần 60 sản phẩm, ứng dụng cho 350.000 khách hàng là cơ quan nhà nước, doanh nghiệp, hộ kinh doanh và 3,5 triệu khách hàng cá nhân tại Việt Nam và 22 quốc gia trên thế giới. MISA vinh dự khi được đồng hành cùng các Bộ, ban, ngành trong chương trình Chuyển đổi số quốc gia, tự động hoá hoạt động quản lý, kinh doanh, giúp nâng cao năng suất và góp phần vào sự phát triển chung của Việt Nam.",
+      "followers": "not available",
+      "recruitment": {
+        "is_hiring": true,
+        "jobs": [
+          {
+            "id": "6dfeeb50-56ce-4da0-baa2-5d3fb14097af",
+            "location": "Hoàn Kiếm",
+            "title": "Logistics Coordinator",
+            "description": "Phối hợp các hoạt động vận chuyển, theo dõi đơn hàng và làm việc với đối tác vận tải.",
+            "technical_skills": [
+              "Quản lý chuỗi cung ứng",
+              "Excel",
+              "Phần mềm logistics"
+            ],
+            "soft_skills": [
+              "Giao tiếp",
+              "Giải quyết vấn đề"
+            ],
+            "personal_traits": [
+              "Kỷ luật",
+              "Tổ chức tốt"
+            ],
+            "working_type": "Full-time",
+            "working_mode": "Offline",
+            "salary": "10,000,000 - 14,000,000 VND",
+            "posted_time": "3 ngày trước",
+            "working_hours_per_week": "40h/tuần",
+            "student_target": {
+              "university": "Đại học Bách Khoa",
+              "majors": "Logistics, Quản lý công nghiệp, Kinh tế vận tải"
+            },
+            "field": "Logistics",
+            "language_requirement": "Tiếng Anh cơ bản",
+            "compensation_support": "Có phụ cấp ăn trưa 800,000 VND"
+          },
+          {
+            "id": "88525a3e-a2ba-450f-b142-f37a1bada8a7",
+            "location": "Hai Bà Trưng",
+            "title": "Delivery Driver",
+            "description": "Giao hàng nội thành, theo tuyến cố định, đảm bảo thời gian và chất lượng.",
+            "technical_skills": [
+              "Sử dụng ứng dụng định vị",
+              "Hiểu biết địa lý thành phố"
+            ],
+            "soft_skills": [
+              "Giao tiếp khách hàng",
+              "Quản lý thời gian"
+            ],
+            "personal_traits": [
+              "Trách nhiệm",
+              "Cẩn thận"
+            ],
+            "working_type": "Part-time",
+            "working_mode": "Offline",
+            "salary": "Tính theo đơn hàng (5,000 VND/đơn)",
+            "posted_time": "1 ngày trước",
+            "working_hours_per_week": "<20h/tuần",
+            "student_target": {
+              "university": "Đại học Bách Khoa",
+              "majors": "Không yêu cầu chuyên ngành"
+            },
+            "field": "Giao nhận",
+            "language_requirement": "Không yêu cầu",
+            "compensation_support": "Hỗ trợ xăng xe 500,000 VND/tháng"
+          }
+        ]
+      },
       "jobs": [
         {
           "id": "job1",
@@ -124,81 +421,1466 @@
           ]
         }
       ],
-      "rating": 4.0,
+      "rating": 4,
       "ratingCount": 121
-    }
-  ],
-  "posts": [
-    {
-      "id": "1",
-      "userId": 1,
-      "companyId": 1,
-      "title": "Trải nghiệm thực tập tại FPT Software",
-      "content": "Môi trường làm việc năng động, mentor nhiệt tình.",
-      "comments": [
-        1,
-        2
-      ],
-      "upvotes": 10,
-      "downvotes": 1,
-      "tags": [
-        "FPT",
-        "Internship"
-      ]
     },
     {
-      "id": "2",
-      "userId": 1,
-      "companyId": 1,
-      "title": "Có nên chọn FPT làm nơi thực tập không?",
-      "content": "Mình đang phân vân giữa FPT và Viettel.",
-      "comments": [],
-      "upvotes": 4,
-      "downvotes": 0,
-      "tags": [
-        "FPT",
-        "Viettel"
-      ]
-    }
-  ],
-  "comments": [
-    {
-      "id": "1",
-      "postId": 1,
-      "userId": 1,
-      "content": "Cảm ơn bạn đã chia sẻ, mình cũng định apply vào đây!"
+      "id": "4",
+      "name": "Công ty cổ phần Hai Bốn Bảy (247Express)",
+      "about": "Trong hơn 15 năm hoạt động, 247Express đã khẳng định vị thế là công ty logistics hàng đầu tại Việt Nam, cung cấp các giải pháp giao hàng nhanh và hiệu quả với mạng lưới rộng khắp cả nước. 247Express cam kết mang đến trải nghiệm vận chuyển tối ưu, hỗ trợ doanh nghiệp và cá nhân trong việc kết nối và phát triển kinh doanh.",
+      "description": "Công ty cổ phần Hai Bốn Bảy (247Express) là công ty logistics và giao hàng nhanh hàng đầu tại Việt Nam, cung cấp dịch vụ giao hàng trong nước và quốc tế với mạng lưới rộng khắp.",
+      "score": 4.2,
+      "address": "Tầng 10, Tòa nhà CT Group, 197 Trần Huy Liệu, Phường Trung Liệt, Quận Đống Đa, Hà Nội",
+      "website": "https://247express.vn/",
+      "employees": "500-1000",
+      "industry": "Chưa rõ",
+      "followers": "not available",
+      "recruitment": {
+        "is_hiring": true,
+        "jobs": [
+          {
+            "id": "6dfeeb50-56ce-4da0-baa2-5d3fb14097af",
+            "location": "Hoàn Kiếm",
+            "title": "Logistics Coordinator",
+            "description": "Phối hợp các hoạt động vận chuyển, theo dõi đơn hàng và làm việc với đối tác vận tải.",
+            "technical_skills": [
+              "Quản lý chuỗi cung ứng",
+              "Excel",
+              "Phần mềm logistics"
+            ],
+            "soft_skills": [
+              "Giao tiếp",
+              "Giải quyết vấn đề"
+            ],
+            "personal_traits": [
+              "Kỷ luật",
+              "Tổ chức tốt"
+            ],
+            "working_type": "Full-time",
+            "working_mode": "Offline",
+            "salary": "10,000,000 - 14,000,000 VND",
+            "posted_time": "3 ngày trước",
+            "working_hours_per_week": "40h/tuần",
+            "student_target": {
+              "university": "Đại học Bách Khoa",
+              "majors": "Logistics, Quản lý công nghiệp, Kinh tế vận tải"
+            },
+            "field": "Logistics",
+            "language_requirement": "Tiếng Anh cơ bản",
+            "compensation_support": "Có phụ cấp ăn trưa 800,000 VND"
+          },
+          {
+            "id": "88525a3e-a2ba-450f-b142-f37a1bada8a7",
+            "location": "Hai Bà Trưng",
+            "title": "Delivery Driver",
+            "description": "Giao hàng nội thành, theo tuyến cố định, đảm bảo thời gian và chất lượng.",
+            "technical_skills": [
+              "Sử dụng ứng dụng định vị",
+              "Hiểu biết địa lý thành phố"
+            ],
+            "soft_skills": [
+              "Giao tiếp khách hàng",
+              "Quản lý thời gian"
+            ],
+            "personal_traits": [
+              "Trách nhiệm",
+              "Cẩn thận"
+            ],
+            "working_type": "Part-time",
+            "working_mode": "Offline",
+            "salary": "Tính theo đơn hàng (5,000 VND/đơn)",
+            "posted_time": "1 ngày trước",
+            "working_hours_per_week": "<20h/tuần",
+            "student_target": {
+              "university": "Đại học Bách Khoa",
+              "majors": "Không yêu cầu chuyên ngành"
+            },
+            "field": "Giao nhận",
+            "language_requirement": "Không yêu cầu",
+            "compensation_support": "Hỗ trợ xăng xe 500,000 VND/tháng"
+          }
+        ]
+      }
     },
     {
-      "id": "2",
-      "postId": 1,
-      "userId": 1,
-      "content": "Mentor ở đó có hướng dẫn kỹ không bạn?"
-    }
-  ],
-  "votes": [
-    {
-      "id": "1",
-      "postId": 1,
-      "userId": 1,
-      "type": "upvote"
+      "id": "5",
+      "name": "Công ty CP Đầu tư và Dịch vụ Đất Xanh Miền Nam",
+      "about": "Với hơn 20 năm kinh nghiệm trong lĩnh vực bất động sản, Đất Xanh Miền Nam tự hào là đơn vị tiên phong phát triển các dự án nhà ở, văn phòng và trung tâm thương mại chất lượng cao. Đất Xanh Miền Nam cam kết mang đến không gian sống hiện đại, tiện nghi và góp phần nâng cao chất lượng cuộc sống cho cộng đồng.",
+      "description": "Công ty CP Đầu tư và Dịch vụ Đất Xanh Miền Nam là công ty bất động sản hàng đầu tại Việt Nam, chuyên phát triển các dự án nhà ở, văn phòng và trung tâm thương mại.",
+      "score": 4.3,
+      "address": "Tầng 16, Tòa nhà CT Group, 197 Trần Huy Liệu, Phường Trung Liệt, Quận Đống Đa, Hà Nội",
+      "website": "https://datxanhmientrung.com/",
+      "employees": "1000+",
+      "industry": "Chưa rõ",
+      "followers": "not available",
+      "recruitment": {
+        "is_hiring": true,
+        "jobs": [
+          {
+            "id": "4cb9286b-67d5-4d46-aa4a-f994e1599dc3",
+            "location": "Hoàn Kiếm",
+            "title": "Real Estate Consultant",
+            "description": "Tư vấn khách hàng về dự án bất động sản, chốt hợp đồng và hỗ trợ hậu mãi.",
+            "technical_skills": [
+              "Hiểu biết thị trường BĐS",
+              "CRM",
+              "Kỹ năng tư vấn"
+            ],
+            "soft_skills": [
+              "Thuyết phục",
+              "Giao tiếp tốt"
+            ],
+            "personal_traits": [
+              "Tự tin",
+              "Chịu áp lực tốt"
+            ],
+            "working_type": "Full-time",
+            "working_mode": "Offline",
+            "salary": "Lương cứng + hoa hồng (trung bình 20,000,000 - 40,000,000 VND)",
+            "posted_time": "2 ngày trước",
+            "working_hours_per_week": "40h/tuần",
+            "student_target": {
+              "university": "Đại học Bách Khoa",
+              "majors": "Kinh tế, Quản trị Kinh doanh, Bất động sản"
+            },
+            "field": "Bất động sản",
+            "language_requirement": "Tiếng Anh giao tiếp cơ bản",
+            "compensation_support": "Hoa hồng theo doanh số + phụ cấp ăn trưa"
+          },
+          {
+            "id": "17fc90ec-50d3-426c-993c-9ccd8eba5220",
+            "location": "Đống Đa",
+            "title": "Marketing Specialist",
+            "description": "Thực hiện chiến dịch quảng bá dự án, quản lý kênh truyền thông và nội dung số.",
+            "technical_skills": [
+              "Digital marketing",
+              "SEO",
+              "Thiết kế cơ bản"
+            ],
+            "soft_skills": [
+              "Sáng tạo",
+              "Phân tích dữ liệu"
+            ],
+            "personal_traits": [
+              "Chủ động",
+              "Tư duy chiến lược"
+            ],
+            "working_type": "Full-time",
+            "working_mode": "Hybrid",
+            "salary": "12,000,000 - 18,000,000 VND",
+            "posted_time": "5 ngày trước",
+            "working_hours_per_week": "40h/tuần",
+            "student_target": {
+              "university": "Đại học Bách Khoa",
+              "majors": "Marketing, Công nghệ thông tin, Thiết kế đồ họa"
+            },
+            "field": "Tiếp thị",
+            "language_requirement": "Tiếng Anh đọc viết tốt",
+            "compensation_support": "Phụ cấp ăn trưa và chi phí quảng cáo"
+          }
+        ]
+      }
     },
     {
-      "id": "2",
-      "postId": 1,
-      "userId": 2,
-      "type": "downvote"
+      "id": "6",
+      "name": "CÔNG TY TNHH ORRO HOME",
+      "about": "ORRO HOME là thương hiệu nội thất cao cấp hàng đầu tại Việt Nam, chuyên thiết kế và thi công các không gian sống hiện đại, sang trọng. Với hơn 10 năm kinh nghiệm, ORRO HOME đã đồng hành cùng hàng nghìn khách hàng trong việc kiến tạo không gian sống đẳng cấp và tinh tế.",
+      "description": "CÔNG TY TNHH ORRO HOME là công ty thiết kế và thi công nội thất cao cấp, cung cấp các giải pháp không gian sống hiện đại và sang trọng cho khách hàng tại Việt Nam.",
+      "score": 4.1,
+      "address": "Số 10, Ngõ 100, Đường Trung Kính, Cầu Giấy, Hà Nội",
+      "website": "not available",
+      "employees": "200-500",
+      "industry": "Chưa rõ",
+      "followers": "not available",
+      "recruitment": {
+        "is_hiring": true,
+        "jobs": [
+          {
+            "id": "92003a60-1a39-42bc-a8ac-486507f670ff",
+            "location": "Tây Hồ",
+            "title": "Interior Designer",
+            "description": "Thiết kế các không gian nội thất cao cấp cho các dự án nhà ở, văn phòng và công trình thương mại.",
+            "technical_skills": [
+              "AutoCAD",
+              "3Ds Max",
+              "SketchUp",
+              "Vray"
+            ],
+            "soft_skills": [
+              "Sáng tạo",
+              "Giao tiếp",
+              "Chú ý đến chi tiết"
+            ],
+            "personal_traits": [
+              "Thẩm mỹ tốt",
+              "Chịu được áp lực công việc"
+            ],
+            "working_type": "Full-time",
+            "working_mode": "Offline",
+            "salary": "10,000,000 - 15,000,000 VND",
+            "posted_time": "2 ngày trước",
+            "working_hours_per_week": "40h/tuần",
+            "student_target": {
+              "university": "Đại học Bách Khoa",
+              "majors": "Kiến trúc, Thiết kế nội thất"
+            },
+            "field": "Thiết kế nội thất",
+            "language_requirement": "Tiếng Anh đọc hiểu",
+            "compensation_support": "Có phụ cấp ăn trưa"
+          },
+          {
+            "id": "b71ac265-76d0-43fb-9a3b-e26e43183d20",
+            "location": "Hoàn Kiếm",
+            "title": "Sales Representative",
+            "description": "Tiếp cận và tư vấn khách hàng về các sản phẩm nội thất cao cấp.",
+            "technical_skills": [
+              "Kỹ năng bán hàng",
+              "Kỹ năng đàm phán"
+            ],
+            "soft_skills": [
+              "Giao tiếp",
+              "Thuyết phục"
+            ],
+            "personal_traits": [
+              "Tự tin",
+              "Chịu áp lực công việc"
+            ],
+            "working_type": "Full-time",
+            "working_mode": "Offline",
+            "salary": "Lương cơ bản + hoa hồng (trung bình 12,000,000 VND)",
+            "posted_time": "1 ngày trước",
+            "working_hours_per_week": "40h/tuần",
+            "student_target": {
+              "university": "Đại học Bách Khoa",
+              "majors": "Quản trị Kinh doanh, Marketing"
+            },
+            "field": "Bán hàng",
+            "language_requirement": "Không yêu cầu",
+            "compensation_support": "Có phụ cấp ăn trưa"
+          }
+        ]
+      }
     },
     {
-      "id": "340a",
-      "postId": 1,
-      "userId": 99,
-      "type": "upvote"
+      "id": "7",
+      "name": "Công ty Cổ phần Dược phẩm và Thiết Bị y tế Đông Nam Á",
+      "about": "Đông Nam Á là công ty dẫn đầu trong lĩnh vực dược phẩm và thiết bị y tế, cam kết mang đến các sản phẩm chất lượng cao và dịch vụ tận tâm.",
+      "description": "Công ty Cổ phần Dược phẩm và Thiết Bị y tế Đông Nam Á là công ty chuyên cung cấp các sản phẩm dược phẩm, thiết bị y tế và dịch vụ chăm sóc sức khỏe tại Việt Nam.",
+      "score": 4.3,
+      "address": "Số 1, Lô A1, Khu đô thị Vinhomes Riverside, Long Biên, Hà Nội",
+      "website": "not available",
+      "employees": "500-1000",
+      "industry": "Chưa rõ",
+      "followers": "not available",
+      "recruitment": {
+        "is_hiring": true,
+        "jobs": [
+          {
+            "id": "5b00c361-ef37-44ff-8572-745587394cef",
+            "location": "Hoàn Kiếm",
+            "title": "Pharmacist",
+            "description": "Quản lý thuốc và thiết bị y tế, đảm bảo các sản phẩm đạt tiêu chuẩn chất lượng.",
+            "technical_skills": [
+              "Quản lý dược phẩm",
+              "Kiến thức về thuốc",
+              "Kiểm tra chất lượng"
+            ],
+            "soft_skills": [
+              "Chịu áp lực",
+              "Giao tiếp tốt"
+            ],
+            "personal_traits": [
+              "Cẩn thận",
+              "Chịu trách nhiệm"
+            ],
+            "working_type": "Full-time",
+            "working_mode": "Offline",
+            "salary": "8,000,000 - 12,000,000 VND",
+            "posted_time": "3 ngày trước",
+            "working_hours_per_week": "40h/tuần",
+            "student_target": {
+              "university": "Đại học Bách Khoa",
+              "majors": "Dược, Hóa học"
+            },
+            "field": "Dược phẩm",
+            "language_requirement": "Tiếng Anh cơ bản",
+            "compensation_support": "Phụ cấp ăn trưa"
+          },
+          {
+            "id": "4dfd6724-f316-47ba-ae8d-4ee7d69fb67b",
+            "location": "Thanh Xuân",
+            "title": "Logistics Coordinator",
+            "description": "Quản lý chuỗi cung ứng và vận chuyển thiết bị y tế, thuốc tới các bệnh viện và nhà thuốc.",
+            "technical_skills": [
+              "Quản lý vận hành",
+              "Phần mềm quản lý logistics"
+            ],
+            "soft_skills": [
+              "Quản lý thời gian",
+              "Giao tiếp tốt"
+            ],
+            "personal_traits": [
+              "Chịu được áp lực công việc",
+              "Kỹ năng tổ chức"
+            ],
+            "working_type": "Full-time",
+            "working_mode": "Offline",
+            "salary": "12,000,000 - 16,000,000 VND",
+            "posted_time": "1 ngày trước",
+            "working_hours_per_week": "40h/tuần",
+            "student_target": {
+              "university": "Đại học Bách Khoa",
+              "majors": "Logistics, Quản trị kinh doanh"
+            },
+            "field": "Logistics",
+            "language_requirement": "Tiếng Anh giao tiếp cơ bản",
+            "compensation_support": "Hỗ trợ chi phí xăng xe"
+          }
+        ]
+      }
     },
     {
-      "id": "a20c",
-      "postId": 1,
-      "userId": 5,
-      "type": "downvote"
+      "id": "8",
+      "name": "EDUPIA",
+      "about": "EDUPIA là nền tảng giáo dục trực tuyến tiên phong tại Việt Nam, mang đến các giải pháp học tập hiện đại và cá nhân hóa. Với hơn 5 triệu học viên, EDUPIA tự hào đồng hành cùng học sinh và sinh viên trong hành trình chinh phục tri thức và phát triển bản thân.",
+      "description": "EDUPIA là công ty giáo dục công nghệ, cung cấp các giải pháp học tập trực tuyến và các khóa học trực tuyến cho học sinh và sinh viên tại Việt Nam.",
+      "score": 4.5,
+      "address": "Tầng 5, Tòa nhà FPT, Số 17 Duy Tân, Cầu Giấy, Hà Nội",
+      "website": "https://edupia.vn/",
+      "employees": "200-500",
+      "industry": "Chưa rõ",
+      "followers": "not available",
+      "recruitment": {
+        "is_hiring": true,
+        "jobs": [
+          {
+            "id": "64c47e79-cb97-4abb-a0c4-d6a55159c6a9",
+            "location": "Ba Đình",
+            "title": "Software Developer",
+            "description": "Phát triển và bảo trì các phần mềm học trực tuyến, cải tiến tính năng cho hệ thống quản lý học viên.",
+            "technical_skills": [
+              "Java",
+              "React",
+              "Node.js",
+              "HTML/CSS"
+            ],
+            "soft_skills": [
+              "Giải quyết vấn đề",
+              "Làm việc nhóm"
+            ],
+            "personal_traits": [
+              "Chịu được áp lực",
+              "Sáng tạo"
+            ],
+            "working_type": "Full-time",
+            "working_mode": "Hybrid",
+            "salary": "15,000,000 - 25,000,000 VND",
+            "posted_time": "5 ngày trước",
+            "working_hours_per_week": "40h/tuần",
+            "student_target": {
+              "university": "Đại học Bách Khoa",
+              "majors": "Công nghệ thông tin, Khoa học máy tính"
+            },
+            "field": "Công nghệ thông tin",
+            "language_requirement": "Tiếng Anh cơ bản",
+            "compensation_support": "Có phụ cấp ăn trưa"
+          },
+          {
+            "id": "6e26e32d-5c2f-4acf-9bde-2b3135ccf926",
+            "location": "Thanh Xuân",
+            "title": "Customer Support Representative",
+            "description": "Hỗ trợ học viên và phụ huynh qua các kênh trực tuyến, giải đáp thắc mắc về khóa học.",
+            "technical_skills": [
+              "Hệ thống CRM",
+              "Giao tiếp qua chat/email"
+            ],
+            "soft_skills": [
+              "Kiên nhẫn",
+              "Giải quyết vấn đề"
+            ],
+            "personal_traits": [
+              "Tận tâm",
+              "Nhiệt tình"
+            ],
+            "working_type": "Full-time",
+            "working_mode": "Online",
+            "salary": "8,000,000 - 12,000,000 VND",
+            "posted_time": "3 ngày trước",
+            "working_hours_per_week": "40h/tuần",
+            "student_target": {
+              "university": "Đại học Bách Khoa",
+              "majors": "Kinh tế, Quản trị kinh doanh, Tâm lý học"
+            },
+            "field": "Hỗ trợ khách hàng",
+            "language_requirement": "Tiếng Anh giao tiếp cơ bản",
+            "compensation_support": "Phụ cấp chi phí điện thoại"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9",
+      "name": "CÔNG TY CỔ PHẦN NGƯỜI BẠN VÀNG",
+      "about": "Người Bạn Vàng là công ty tài chính hàng đầu tại Việt Nam, chuyên cung cấp các giải pháp đầu tư và quản lý tài sản hiệu quả. Với hơn 10 năm kinh nghiệm, công ty đã hỗ trợ hàng nghìn khách hàng đạt được mục tiêu tài chính và phát triển bền vững.",
+      "description": "CÔNG TY CỔ PHẦN NGƯỜI BẠN VÀNG là công ty cung cấp các giải pháp tài chính và đầu tư cho cá nhân và doanh nghiệp tại Việt Nam.",
+      "score": 4,
+      "address": "Số 18, Ngõ 118, Đường Nguyễn Văn Cừ, Long Biên, Hà Nội",
+      "website": "not available",
+      "employees": "100-200",
+      "industry": "Chưa rõ",
+      "followers": "not available",
+      "recruitment": {
+        "is_hiring": true,
+        "jobs": [
+          {
+            "id": "ecee0d15-35f8-4fc5-8cce-4045b142927e",
+            "location": "Nam Từ Liêm",
+            "title": "Financial Advisor",
+            "description": "Tư vấn các giải pháp tài chính và đầu tư cho khách hàng cá nhân và doanh nghiệp.",
+            "technical_skills": [
+              "Tư vấn tài chính",
+              "Quản lý tài sản"
+            ],
+            "soft_skills": [
+              "Giao tiếp",
+              "Thuyết phục"
+            ],
+            "personal_traits": [
+              "Chịu được áp lực",
+              "Kiên nhẫn"
+            ],
+            "working_type": "Full-time",
+            "working_mode": "Offline",
+            "salary": "10,000,000 - 15,000,000 VND",
+            "posted_time": "1 ngày trước",
+            "working_hours_per_week": "40h/tuần",
+            "student_target": {
+              "university": "Đại học Kinh tế Quốc dân",
+              "majors": "Tài chính, Kinh tế"
+            },
+            "field": "Tài chính",
+            "language_requirement": "Tiếng Anh cơ bản",
+            "compensation_support": "Có phụ cấp ăn trưa"
+          },
+          {
+            "id": "0974a1f0-3c57-4f15-9190-941951b13f59",
+            "location": "Ba Đình",
+            "title": "Investment Analyst",
+            "description": "Phân tích và đánh giá các cơ hội đầu tư cho doanh nghiệp và cá nhân.",
+            "technical_skills": [
+              "Phân tích tài chính",
+              "Đầu tư chứng khoán"
+            ],
+            "soft_skills": [
+              "Kỹ năng phân tích",
+              "Sáng tạo"
+            ],
+            "personal_traits": [
+              "Chịu trách nhiệm",
+              "Chú ý đến chi tiết"
+            ],
+            "working_type": "Full-time",
+            "working_mode": "Offline",
+            "salary": "12,000,000 - 18,000,000 VND",
+            "posted_time": "3 ngày trước",
+            "working_hours_per_week": "40h/tuần",
+            "student_target": {
+              "university": "Đại học Ngoại Thương",
+              "majors": "Quản trị kinh doanh, Tài chính"
+            },
+            "field": "Đầu tư",
+            "language_requirement": "Tiếng Anh giao tiếp",
+            "compensation_support": "Phụ cấp chi phí đi lại"
+          }
+        ]
+      }
+    },
+    {
+      "id": "10",
+      "name": "CÔNG TY TNHH CARBON BILLIARDS",
+      "about": "Carbon Billiards là nhà cung cấp thiết bị bida và snooker hàng đầu tại Việt Nam. Với hơn 15 năm hoạt động, công ty cam kết mang đến các sản phẩm chất lượng cao và dịch vụ chuyên nghiệp, góp phần nâng tầm trải nghiệm giải trí cho khách hàng.",
+      "description": "CÔNG TY TNHH CARBON BILLIARDS là công ty chuyên cung cấp thiết bị và dịch vụ cho các câu lạc bộ bida, snooker và các trò chơi giải trí liên quan.",
+      "score": 4.2,
+      "address": "Số 2, Ngõ 123, Đường Trần Duy Hưng, Cầu Giấy, Hà Nội",
+      "website": "not available",
+      "employees": "50-100",
+      "industry": "Chưa rõ",
+      "followers": "not available",
+      "recruitment": {
+        "is_hiring": true,
+        "jobs": [
+          {
+            "id": "55155429-a1e2-4238-be61-f1d1f90542ab",
+            "location": "Hà Đông",
+            "title": "Sales Representative",
+            "description": "Chăm sóc khách hàng, tư vấn và bán các sản phẩm thiết bị bida và snooker.",
+            "technical_skills": [
+              "Kỹ năng bán hàng",
+              "Tư vấn sản phẩm"
+            ],
+            "soft_skills": [
+              "Giao tiếp",
+              "Thuyết phục"
+            ],
+            "personal_traits": [
+              "Chịu được áp lực công việc",
+              "Tự tin"
+            ],
+            "working_type": "Full-time",
+            "working_mode": "Offline",
+            "salary": "8,000,000 - 12,000,000 VND",
+            "posted_time": "2 ngày trước",
+            "working_hours_per_week": "40h/tuần",
+            "student_target": {
+              "university": "Đại học Ngoại Thương",
+              "majors": "Quản trị Kinh doanh, Marketing"
+            },
+            "field": "Bán hàng",
+            "language_requirement": "Không yêu cầu",
+            "compensation_support": "Có phụ cấp ăn trưa"
+          },
+          {
+            "id": "773242ae-b1c2-4c7f-97a5-ce35a3528e34",
+            "location": "Hoàn Kiếm",
+            "title": "Customer Service Officer",
+            "description": "Hỗ trợ và giải đáp thắc mắc cho khách hàng về các sản phẩm và dịch vụ của công ty.",
+            "technical_skills": [
+              "Kỹ năng chăm sóc khách hàng",
+              "Giải quyết vấn đề"
+            ],
+            "soft_skills": [
+              "Kiên nhẫn",
+              "Lắng nghe"
+            ],
+            "personal_traits": [
+              "Cẩn thận",
+              "Tận tâm"
+            ],
+            "working_type": "Full-time",
+            "working_mode": "Offline",
+            "salary": "7,000,000 - 9,000,000 VND",
+            "posted_time": "1 ngày trước",
+            "working_hours_per_week": "40h/tuần",
+            "student_target": {
+              "university": "Đại học Hà Nội",
+              "majors": "Quản trị Kinh doanh, Dịch vụ khách hàng"
+            },
+            "field": "Dịch vụ khách hàng",
+            "language_requirement": "Tiếng Anh cơ bản",
+            "compensation_support": "Có phụ cấp ăn trưa"
+          }
+        ]
+      }
+    },
+    {
+      "id": "11",
+      "name": "CÔNG TY CỔ PHẦN CÔNG NGHỆ SỐ THIÊN QUANG",
+      "about": "Thiên Quang là công ty công nghệ số tiên phong tại Việt Nam, chuyên cung cấp các giải pháp phần mềm và dịch vụ CNTT hiện đại. Với hơn 20 năm kinh nghiệm, Thiên Quang đã đồng hành cùng hàng nghìn doanh nghiệp trong hành trình chuyển đổi số và nâng cao hiệu quả hoạt động.",
+      "description": "CÔNG TY CỔ PHẦN CÔNG NGHỆ SỐ THIÊN QUANG là công ty công nghệ số, cung cấp các giải pháp phần mềm và dịch vụ CNTT cho doanh nghiệp tại Việt Nam.",
+      "score": 4.3,
+      "address": "Số 3, Ngõ 125, Đường Trần Duy Hưng, Cầu Giấy, Hà Nội",
+      "website": "not available",
+      "employees": "100-200",
+      "industry": "Chưa rõ",
+      "followers": "not available",
+      "recruitment": {
+        "is_hiring": true,
+        "jobs": [
+          {
+            "id": "f9f4e51f-c888-465d-b858-560d05fa58a0",
+            "location": "Hà Đông",
+            "title": "Software Engineer",
+            "description": "Phát triển các ứng dụng phần mềm đáp ứng nhu cầu công nghệ số của doanh nghiệp.",
+            "technical_skills": [
+              "Java",
+              "Python",
+              "C++",
+              "SQL"
+            ],
+            "soft_skills": [
+              "Giải quyết vấn đề",
+              "Sáng tạo"
+            ],
+            "personal_traits": [
+              "Cẩn thận",
+              "Chịu áp lực công việc"
+            ],
+            "working_type": "Full-time",
+            "working_mode": "Hybrid",
+            "salary": "12,000,000 - 20,000,000 VND",
+            "posted_time": "4 ngày trước",
+            "working_hours_per_week": "40h/tuần",
+            "student_target": {
+              "university": "Đại học Bách Khoa",
+              "majors": "Công nghệ thông tin, Khoa học máy tính"
+            },
+            "field": "Công nghệ phần mềm",
+            "language_requirement": "Tiếng Anh cơ bản",
+            "compensation_support": "Có phụ cấp ăn trưa"
+          },
+          {
+            "id": "17bb4ea6-763a-4d44-b794-1d3f32f6c2e7",
+            "location": "Hai Bà Trưng",
+            "title": "IT Project Manager",
+            "description": "Quản lý và giám sát các dự án công nghệ, đảm bảo tiến độ và chất lượng sản phẩm.",
+            "technical_skills": [
+              "Quản lý dự án",
+              "Kỹ năng lãnh đạo",
+              "Kỹ năng giải quyết vấn đề"
+            ],
+            "soft_skills": [
+              "Lãnh đạo",
+              "Giao tiếp tốt"
+            ],
+            "personal_traits": [
+              "Chịu áp lực",
+              "Làm việc nhóm tốt"
+            ],
+            "working_type": "Full-time",
+            "working_mode": "Hybrid",
+            "salary": "18,000,000 - 25,000,000 VND",
+            "posted_time": "1 ngày trước",
+            "working_hours_per_week": "40h/tuần",
+            "student_target": {
+              "university": "Đại học Khoa học tự nhiên",
+              "majors": "Công nghệ thông tin, Quản lý dự án"
+            },
+            "field": "Quản lý dự án CNTT",
+            "language_requirement": "Tiếng Anh giao tiếp",
+            "compensation_support": "Có hỗ trợ máy tính xách tay"
+          }
+        ]
+      }
+    },
+    {
+      "id": "12",
+      "name": "CÔNG TY TNHH THƯƠNG MẠI TIANXINGYUN VIỆT NAM",
+      "about": "Tianxingyun Việt Nam là công ty thương mại điện tử hàng đầu, mang đến các sản phẩm tiêu dùng và dịch vụ trực tuyến tiện lợi. Với hơn 5 năm hoạt động, công ty đã phục vụ hàng triệu khách hàng trên khắp cả nước, góp phần thúc đẩy sự phát triển của thương mại điện tử tại Việt Nam.",
+      "description": "CÔNG TY TNHH THƯƠNG MẠI TIANXINGYUN VIỆT NAM là công ty thương mại điện tử, cung cấp các sản phẩm tiêu dùng và dịch vụ trực tuyến cho người tiêu dùng tại Việt Nam.",
+      "score": 4.1,
+      "address": "Số 4, Ngõ 127, Đường Trần Duy Hưng, Cầu Giấy, Hà Nội",
+      "website": "not available",
+      "employees": "50-100",
+      "industry": "Chưa rõ",
+      "followers": "not available",
+      "recruitment": {
+        "is_hiring": true,
+        "jobs": [
+          {
+            "id": "c940eb36-063e-4fb5-a0a2-c73bab2c6a6c",
+            "location": "Đống Đa",
+            "title": "E-commerce Specialist",
+            "description": "Quản lý các hoạt động thương mại điện tử, phát triển chiến lược bán hàng trực tuyến và tối ưu hóa trải nghiệm người dùng.",
+            "technical_skills": [
+              "Thương mại điện tử",
+              "Quản lý sản phẩm online",
+              "Marketing trực tuyến"
+            ],
+            "soft_skills": [
+              "Kỹ năng giao tiếp",
+              "Tư duy phân tích"
+            ],
+            "personal_traits": [
+              "Sáng tạo",
+              "Chịu được áp lực công việc"
+            ],
+            "working_type": "Full-time",
+            "working_mode": "Online",
+            "salary": "8,000,000 - 12,000,000 VND",
+            "posted_time": "2 ngày trước",
+            "working_hours_per_week": "40h/tuần",
+            "student_target": {
+              "university": "Đại học Thương Mại",
+              "majors": "Marketing, Thương mại điện tử"
+            },
+            "field": "E-commerce",
+            "language_requirement": "Tiếng Anh cơ bản",
+            "compensation_support": "Có phụ cấp điện thoại"
+          },
+          {
+            "id": "06a8126b-0140-41df-8cf3-e78ea4412054",
+            "location": "Ba Đình",
+            "title": "Marketing Manager",
+            "description": "Lên kế hoạch và triển khai các chiến lược marketing để phát triển thương hiệu và thúc đẩy doanh thu bán hàng.",
+            "technical_skills": [
+              "Marketing trực tuyến",
+              "Quản lý chiến lược",
+              "SEO/SEM"
+            ],
+            "soft_skills": [
+              "Lãnh đạo",
+              "Kỹ năng giao tiếp"
+            ],
+            "personal_traits": [
+              "Chịu trách nhiệm",
+              "Chủ động",
+              "Tinh thần làm việc nhóm"
+            ],
+            "working_type": "Full-time",
+            "working_mode": "Offline",
+            "salary": "15,000,000 - 20,000,000 VND",
+            "posted_time": "1 ngày trước",
+            "working_hours_per_week": "40h/tuần",
+            "student_target": {
+              "university": "Đại học Ngoại Thương",
+              "majors": "Quản trị Kinh doanh, Marketing"
+            },
+            "field": "Marketing",
+            "language_requirement": "Tiếng Anh giao tiếp",
+            "compensation_support": "Có phụ cấp ăn trưa"
+          },
+          {
+            "id": "a63f3e49-b4ef-435d-9eb1-764d648e9ec8",
+            "location": "Cầu Giấy",
+            "title": "Customer Service Representative",
+            "description": "Giải đáp thắc mắc và hỗ trợ khách hàng về các sản phẩm và dịch vụ của công ty.",
+            "technical_skills": [
+              "Chăm sóc khách hàng",
+              "Kỹ năng giải quyết vấn đề"
+            ],
+            "soft_skills": [
+              "Kiên nhẫn",
+              "Lắng nghe"
+            ],
+            "personal_traits": [
+              "Thân thiện",
+              "Chịu áp lực"
+            ],
+            "working_type": "Full-time",
+            "working_mode": "Offline",
+            "salary": "7,000,000 - 9,000,000 VND",
+            "posted_time": "3 ngày trước",
+            "working_hours_per_week": "40h/tuần",
+            "student_target": {
+              "university": "Đại học Hà Nội",
+              "majors": "Quản trị Kinh doanh, Dịch vụ khách hàng"
+            },
+            "field": "Dịch vụ khách hàng",
+            "language_requirement": "Tiếng Anh cơ bản",
+            "compensation_support": "Có phụ cấp ăn trưa"
+          },
+          {
+            "id": "92295ffa-879a-45dc-b9ab-27a39972ce39",
+            "location": "Ba Đình",
+            "title": "Logistics Coordinator",
+            "description": "Quản lý và tối ưu hóa quy trình vận chuyển và lưu kho hàng hóa.",
+            "technical_skills": [
+              "Quản lý logistics",
+              "Kiểm soát tồn kho",
+              "Phân tích dữ liệu logistics"
+            ],
+            "soft_skills": [
+              "Kỹ năng giải quyết vấn đề",
+              "Làm việc nhóm"
+            ],
+            "personal_traits": [
+              "Tỉ mỉ",
+              "Chịu trách nhiệm"
+            ],
+            "working_type": "Full-time",
+            "working_mode": "Offline",
+            "salary": "8,000,000 - 12,000,000 VND",
+            "posted_time": "5 ngày trước",
+            "working_hours_per_week": "40h/tuần",
+            "student_target": {
+              "university": "Đại học Giao thông vận tải",
+              "majors": "Logistics, Quản lý chuỗi cung ứng"
+            },
+            "field": "Logistics",
+            "language_requirement": "Tiếng Anh cơ bản",
+            "compensation_support": "Có phụ cấp đi lại"
+          }
+        ]
+      }
+    },
+    {
+      "id": "13",
+      "name": "Công ty cổ phần Lux Decor Việt Nam",
+      "about": "Lux Decor Việt Nam là công ty thiết kế và thi công nội thất cao cấp, chuyên kiến tạo không gian sống sang trọng và đẳng cấp. Với hơn 10 năm kinh nghiệm, Lux Decor đã trở thành đối tác tin cậy của hàng nghìn khách hàng trong và ngoài nước.",
+      "description": "Công ty cổ phần Lux Decor Việt Nam là công ty thiết kế và thi công nội thất cao cấp, cung cấp các giải pháp không gian sống sang trọng cho khách hàng tại Việt Nam.",
+      "score": 4.3,
+      "address": "Số 5, Ngõ 129, Đường Trần Duy Hưng, Cầu Giấy, Hà Nội",
+      "website": "not available",
+      "employees": "100-200",
+      "industry": "Chưa rõ",
+      "followers": "not available",
+      "recruitment": {
+        "is_hiring": true,
+        "jobs": [
+          {
+            "id": "64ce15a3-eedb-47b6-9b9e-35b12f127c6e",
+            "location": "Bắc Từ Liêm",
+            "title": "Interior Designer",
+            "description": "Chịu trách nhiệm thiết kế các không gian nội thất sang trọng cho khách hàng.",
+            "technical_skills": [
+              "Thiết kế nội thất",
+              "Phần mềm thiết kế (AutoCAD, SketchUp)"
+            ],
+            "soft_skills": [
+              "Sáng tạo",
+              "Chăm chỉ",
+              "Kỹ năng giao tiếp"
+            ],
+            "personal_traits": [
+              "Tỉ mỉ",
+              "Thẩm mỹ cao"
+            ],
+            "working_type": "Full-time",
+            "working_mode": "Offline",
+            "salary": "10,000,000 - 15,000,000 VND",
+            "posted_time": "3 ngày trước",
+            "working_hours_per_week": "40h/tuần",
+            "student_target": {
+              "university": "Đại học Mỹ thuật Công nghiệp",
+              "majors": "Thiết kế nội thất"
+            },
+            "field": "Nội thất",
+            "language_requirement": "Không yêu cầu",
+            "compensation_support": "Có phụ cấp ăn trưa"
+          },
+          {
+            "id": "1d7da951-43ce-4841-878f-63a1b125395c",
+            "location": "Hoàn Kiếm",
+            "title": "Project Manager",
+            "description": "Lập kế hoạch, tổ chức và giám sát tiến độ các dự án thiết kế và thi công nội thất.",
+            "technical_skills": [
+              "Quản lý dự án",
+              "Quản lý đội nhóm",
+              "Phân tích tiến độ dự án"
+            ],
+            "soft_skills": [
+              "Lãnh đạo",
+              "Giao tiếp",
+              "Giải quyết vấn đề"
+            ],
+            "personal_traits": [
+              "Tổ chức",
+              "Tinh thần trách nhiệm"
+            ],
+            "working_type": "Full-time",
+            "working_mode": "Offline",
+            "salary": "15,000,000 - 20,000,000 VND",
+            "posted_time": "2 ngày trước",
+            "working_hours_per_week": "40h/tuần",
+            "student_target": {
+              "university": "Đại học Xây dựng",
+              "majors": "Quản lý dự án, Xây dựng"
+            },
+            "field": "Quản lý dự án",
+            "language_requirement": "Tiếng Anh cơ bản",
+            "compensation_support": "Có phụ cấp công tác"
+          }
+        ]
+      }
+    },
+    {
+      "id": "14",
+      "name": "CÔNG TY TNHH CÔNG NGHỆ SẠCH GREEN BIO",
+      "about": "Green Bio là công ty tiên phong trong lĩnh vực công nghệ sạch tại Việt Nam, chuyên cung cấp các giải pháp năng lượng tái tạo và quản lý chất thải sinh học. Với hơn 15 năm hoạt động, Green Bio cam kết góp phần bảo vệ môi trường và phát triển bền vững.",
+      "description": "CÔNG TY TNHH CÔNG NGHỆ SẠCH GREEN BIO là công ty chuyên cung cấp các giải pháp công nghệ sạch, bao gồm năng lượng tái tạo và quản lý chất thải sinh học.",
+      "score": 4,
+      "address": "Số 6, Ngõ 131, Đường Trần Duy Hưng, Cầu Giấy, Hà Nội",
+      "website": "not available",
+      "employees": "50-100",
+      "industry": "Chưa rõ",
+      "followers": "not available",
+      "recruitment": {
+        "is_hiring": true,
+        "jobs": [
+          {
+            "id": "0b593541-74b8-4b2d-8f8e-1458bfdb9715",
+            "location": "Nam Từ Liêm",
+            "title": "Environmental Engineer",
+            "description": "Chịu trách nhiệm phát triển và triển khai các giải pháp công nghệ sạch trong các dự án.",
+            "technical_skills": [
+              "Kỹ thuật môi trường",
+              "Năng lượng tái tạo",
+              "Xử lý chất thải"
+            ],
+            "soft_skills": [
+              "Tư duy phân tích",
+              "Giải quyết vấn đề"
+            ],
+            "personal_traits": [
+              "Chịu áp lực",
+              "Tinh thần cầu tiến"
+            ],
+            "working_type": "Full-time",
+            "working_mode": "Offline",
+            "salary": "12,000,000 - 15,000,000 VND",
+            "posted_time": "1 ngày trước",
+            "working_hours_per_week": "40h/tuần",
+            "student_target": {
+              "university": "Đại học Tài nguyên và Môi trường",
+              "majors": "Môi trường, Kỹ thuật môi trường"
+            },
+            "field": "Môi trường",
+            "language_requirement": "Tiếng Anh cơ bản",
+            "compensation_support": "Có phụ cấp ăn trưa"
+          },
+          {
+            "id": "514ac009-56d7-4817-9563-cf6fc7b95c81",
+            "location": "Nam Từ Liêm",
+            "title": "Renewable Energy Specialist",
+            "description": "Phát triển và nghiên cứu các giải pháp năng lượng tái tạo cho công ty.",
+            "technical_skills": [
+              "Năng lượng tái tạo",
+              "Kỹ thuật điện",
+              "Phân tích dữ liệu"
+            ],
+            "soft_skills": [
+              "Kỹ năng giao tiếp",
+              "Quản lý thời gian"
+            ],
+            "personal_traits": [
+              "Sáng tạo",
+              "Chịu trách nhiệm"
+            ],
+            "working_type": "Full-time",
+            "working_mode": "Offline",
+            "salary": "10,000,000 - 15,000,000 VND",
+            "posted_time": "3 ngày trước",
+            "working_hours_per_week": "40h/tuần",
+            "student_target": {
+              "university": "Đại học Bách Khoa Hà Nội",
+              "majors": "Kỹ thuật năng lượng, Kỹ thuật điện"
+            },
+            "field": "Năng lượng tái tạo",
+            "language_requirement": "Tiếng Anh giao tiếp",
+            "compensation_support": "Có phụ cấp đi lại"
+          }
+        ]
+      }
+    },
+    {
+      "id": "15",
+      "name": "CÔNG TY TNHH CNV HOLDINGS",
+      "about": "CNV Holdings là công ty đầu tư và quản lý bất động sản hàng đầu tại Việt Nam, chuyên phát triển các dự án nhà ở và khu đô thị hiện đại. Với hơn 20 năm kinh nghiệm, CNV Holdings đã góp phần thay đổi diện mạo đô thị và nâng cao chất lượng cuộc sống.",
+      "description": "CÔNG TY TNHH CNV HOLDINGS là công ty đầu tư và quản lý bất động sản, chuyên phát triển các dự án nhà ở và khu đô thị tại Việt Nam.",
+      "score": 4.2,
+      "address": "Số 7, Ngõ 133, Đường Trần Duy Hưng, Cầu Giấy, Hà Nội",
+      "website": "not available",
+      "employees": "200-500",
+      "industry": "Chưa rõ",
+      "followers": "not available",
+      "recruitment": {
+        "is_hiring": true,
+        "jobs": [
+          {
+            "id": "00ff531f-2691-4bb5-a2c9-88fd1e19149c",
+            "location": "Hoàn Kiếm",
+            "title": "Real Estate Analyst",
+            "description": "Phân tích các dự án bất động sản và thị trường để hỗ trợ các quyết định đầu tư.",
+            "technical_skills": [
+              "Phân tích thị trường",
+              "Tính toán tài chính",
+              "Kỹ năng sử dụng phần mềm phân tích"
+            ],
+            "soft_skills": [
+              "Kỹ năng giao tiếp",
+              "Tư duy logic",
+              "Chịu áp lực"
+            ],
+            "personal_traits": [
+              "Cẩn thận",
+              "Chịu trách nhiệm",
+              "Tinh thần cầu tiến"
+            ],
+            "working_type": "Full-time",
+            "working_mode": "Offline",
+            "salary": "10,000,000 - 12,000,000 VND",
+            "posted_time": "5 ngày trước",
+            "working_hours_per_week": "40h/tuần",
+            "student_target": {
+              "university": "Đại học Kinh tế Quốc dân",
+              "majors": "Kinh tế, Quản trị kinh doanh, Bất động sản"
+            },
+            "field": "Bất động sản",
+            "language_requirement": "Không yêu cầu",
+            "compensation_support": "Có phụ cấp ăn trưa"
+          },
+          {
+            "id": "7a464621-a380-4442-a8f4-5a905359f37d",
+            "location": "Hai Bà Trưng",
+            "title": "Project Manager",
+            "description": "Quản lý và giám sát tiến độ các dự án bất động sản từ đầu đến cuối.",
+            "technical_skills": [
+              "Quản lý dự án",
+              "Lập kế hoạch",
+              "Quản lý đội nhóm"
+            ],
+            "soft_skills": [
+              "Lãnh đạo",
+              "Kỹ năng giao tiếp",
+              "Giải quyết vấn đề"
+            ],
+            "personal_traits": [
+              "Tinh thần trách nhiệm",
+              "Làm việc độc lập"
+            ],
+            "working_type": "Full-time",
+            "working_mode": "Offline",
+            "salary": "15,000,000 - 20,000,000 VND",
+            "posted_time": "3 ngày trước",
+            "working_hours_per_week": "40h/tuần",
+            "student_target": {
+              "university": "Đại học Xây dựng",
+              "majors": "Quản lý dự án, Xây dựng"
+            },
+            "field": "Quản lý dự án",
+            "language_requirement": "Tiếng Anh giao tiếp",
+            "compensation_support": "Có phụ cấp công tác"
+          }
+        ]
+      }
+    },
+    {
+      "id": "16",
+      "name": "Ngân Hàng TMCP Xuất Nhập Khẩu Việt Nam (Eximbank)",
+      "about": "Eximbank là một trong những ngân hàng thương mại lớn nhất tại Việt Nam, cung cấp các dịch vụ tài chính toàn diện cho cá nhân và doanh nghiệp. Với hơn 30 năm hoạt động, Eximbank tự hào đồng hành cùng khách hàng trong hành trình phát triển kinh tế và hội nhập quốc tế.",
+      "description": "Ngân Hàng TMCP Xuất Nhập Khẩu Việt Nam (Eximbank) là một trong những ngân hàng thương mại lớn nhất tại Việt Nam, cung cấp các dịch vụ ngân hàng toàn diện cho cá nhân và doanh nghiệp.",
+      "score": 4.5,
+      "address": "Số 1, Lý Thường Kiệt, Hoàn Kiếm, Hà Nội",
+      "website": "https://www.eximbank.com.vn/",
+      "employees": "1000+",
+      "industry": "Chưa rõ",
+      "followers": "not available",
+      "recruitment": {
+        "is_hiring": true,
+        "jobs": [
+          {
+            "id": "9753f6d0-4a03-458b-afff-2cd44e1266ab",
+            "location": "Đống Đa",
+            "title": "Banking Officer",
+            "description": "Cung cấp dịch vụ ngân hàng, tư vấn tài chính cho khách hàng cá nhân và doanh nghiệp.",
+            "technical_skills": [
+              "Kiến thức về ngân hàng",
+              "Tư vấn tài chính",
+              "Sử dụng phần mềm ngân hàng"
+            ],
+            "soft_skills": [
+              "Kỹ năng giao tiếp",
+              "Chăm sóc khách hàng",
+              "Quản lý thời gian"
+            ],
+            "personal_traits": [
+              "Chuyên nghiệp",
+              "Tính cẩn thận",
+              "Chịu áp lực cao"
+            ],
+            "working_type": "Full-time",
+            "working_mode": "Offline",
+            "salary": "12,000,000 - 15,000,000 VND",
+            "posted_time": "1 tuần trước",
+            "working_hours_per_week": "40h/tuần",
+            "student_target": {
+              "university": "Đại học Kinh tế Quốc dân",
+              "majors": "Tài chính ngân hàng"
+            },
+            "field": "Ngân hàng",
+            "language_requirement": "Tiếng Anh giao tiếp cơ bản",
+            "compensation_support": "Có phụ cấp ăn trưa"
+          },
+          {
+            "id": "6e45ba43-8338-4b34-9fef-dd2f7f024a1c",
+            "location": "Đống Đa",
+            "title": "Risk Management Analyst",
+            "description": "Phân tích và đánh giá các rủi ro liên quan đến hoạt động ngân hàng và đề xuất các biện pháp phòng ngừa.",
+            "technical_skills": [
+              "Phân tích rủi ro",
+              "Quản lý rủi ro",
+              "Tư vấn tài chính"
+            ],
+            "soft_skills": [
+              "Tư duy logic",
+              "Giải quyết vấn đề",
+              "Kỹ năng phân tích"
+            ],
+            "personal_traits": [
+              "Chịu trách nhiệm",
+              "Tỉ mỉ",
+              "Sáng tạo"
+            ],
+            "working_type": "Full-time",
+            "working_mode": "Offline",
+            "salary": "15,000,000 - 20,000,000 VND",
+            "posted_time": "4 ngày trước",
+            "working_hours_per_week": "40h/tuần",
+            "student_target": {
+              "university": "Đại học Ngoại thương",
+              "majors": "Tài chính, Quản lý rủi ro"
+            },
+            "field": "Quản lý rủi ro",
+            "language_requirement": "Tiếng Anh chuyên ngành tài chính",
+            "compensation_support": "Có phụ cấp công tác"
+          }
+        ]
+      }
+    },
+    {
+      "id": "17",
+      "name": "Công ty Cổ phần Công nghệ Prep",
+      "about": "Prep là công ty giáo dục công nghệ hàng đầu tại Việt Nam, chuyên cung cấp các giải pháp học tập trực tuyến và cá nhân hóa. Với hơn 1 triệu học viên, Prep cam kết mang đến trải nghiệm học tập hiện đại và hiệu quả.",
+      "description": "Công ty Cổ phần Công nghệ Prep là công ty giáo dục công nghệ, cung cấp các khóa học trực tuyến và các giải pháp học tập cá nhân hóa cho học sinh và sinh viên tại Việt Nam.",
+      "score": 4.4,
+      "address": "Số 8, Ngõ 135, Đường Trần Duy Hưng, Cầu Giấy, Hà Nội",
+      "website": "https://prep.vn/",
+      "employees": "100-200",
+      "industry": "Chưa rõ",
+      "followers": "not available",
+      "recruitment": {
+        "is_hiring": true,
+        "jobs": [
+          {
+            "id": "fce97232-4d56-4582-aecb-199e03f63d29",
+            "location": "Ba Đình",
+            "title": "Software Developer",
+            "description": "Phát triển phần mềm giáo dục và các giải pháp công nghệ học tập.",
+            "technical_skills": [
+              "Lập trình Java",
+              "Cấu trúc dữ liệu",
+              "Phát triển ứng dụng web"
+            ],
+            "soft_skills": [
+              "Kỹ năng giao tiếp",
+              "Giải quyết vấn đề",
+              "Làm việc nhóm"
+            ],
+            "personal_traits": [
+              "Sáng tạo",
+              "Cẩn thận",
+              "Chịu được áp lực"
+            ],
+            "working_type": "Full-time",
+            "working_mode": "Offline",
+            "salary": "15,000,000 - 20,000,000 VND",
+            "posted_time": "2 ngày trước",
+            "working_hours_per_week": "40h/tuần",
+            "student_target": {
+              "university": "Đại học Bách Khoa Hà Nội",
+              "majors": "Công nghệ thông tin, Kỹ thuật phần mềm"
+            },
+            "field": "Công nghệ thông tin",
+            "language_requirement": "Tiếng Anh chuyên ngành IT",
+            "compensation_support": "Có phụ cấp ăn trưa"
+          },
+          {
+            "id": "42766a94-cb48-41ee-a0e4-013c02a935cd",
+            "location": "Hoàn Kiếm",
+            "title": "Educational Content Creator",
+            "description": "Tạo ra nội dung học tập trực tuyến, bao gồm các bài giảng, tài liệu học tập.",
+            "technical_skills": [
+              "Sáng tạo nội dung",
+              "Soạn thảo bài giảng",
+              "Kỹ năng biên tập"
+            ],
+            "soft_skills": [
+              "Sáng tạo",
+              "Khả năng giao tiếp",
+              "Tổ chức công việc"
+            ],
+            "personal_traits": [
+              "Cẩn thận",
+              "Tỉ mỉ",
+              "Chịu áp lực"
+            ],
+            "working_type": "Full-time",
+            "working_mode": "Offline",
+            "salary": "10,000,000 - 12,000,000 VND",
+            "posted_time": "3 ngày trước",
+            "working_hours_per_week": "40h/tuần",
+            "student_target": {
+              "university": "Đại học Sư phạm Hà Nội",
+              "majors": "Sư phạm, Ngôn ngữ học"
+            },
+            "field": "Giáo dục",
+            "language_requirement": "Tiếng Anh cơ bản",
+            "compensation_support": "Có phụ cấp công tác"
+          }
+        ]
+      }
+    },
+    {
+      "id": "18",
+      "name": "Công ty Cổ Phần Rich Nguyen Academy",
+      "about": "Rich Nguyen Academy là đơn vị đào tạo kỹ năng mềm và phát triển cá nhân hàng đầu tại Việt Nam. Với hơn 10 năm kinh nghiệm, công ty đã giúp hàng nghìn học viên nâng cao năng lực và đạt được thành công trong sự nghiệp.",
+      "description": "Công ty Cổ Phần Rich Nguyen Academy là công ty giáo dục, cung cấp các khóa học đào tạo kỹ năng mềm và phát triển cá nhân cho sinh viên và chuyên gia tại Việt Nam.",
+      "score": 4,
+      "address": "Số 9, Ngõ 137, Đường Trần Duy Hưng, Cầu Giấy, Hà Nội",
+      "website": "not available",
+      "employees": "50-100",
+      "industry": "Chưa rõ",
+      "followers": "not available",
+      "recruitment": {
+        "is_hiring": true,
+        "jobs": [
+          {
+            "id": "c348612c-9e29-4b31-a4f4-057c1494f404",
+            "location": "Nam Từ Liêm",
+            "title": "Training Facilitator",
+            "description": "Giảng dạy và hướng dẫn các khóa học kỹ năng mềm và phát triển cá nhân cho học viên.",
+            "technical_skills": [
+              "Kỹ năng giảng dạy",
+              "Tổ chức lớp học",
+              "Tạo giáo án"
+            ],
+            "soft_skills": [
+              "Kỹ năng giao tiếp",
+              "Lãnh đạo",
+              "Khả năng giải quyết vấn đề"
+            ],
+            "personal_traits": [
+              "Nhiệt tình",
+              "Sáng tạo",
+              "Khả năng truyền đạt"
+            ],
+            "working_type": "Full-time",
+            "working_mode": "Offline",
+            "salary": "8,000,000 - 10,000,000 VND",
+            "posted_time": "1 tuần trước",
+            "working_hours_per_week": "40h/tuần",
+            "student_target": {
+              "university": "Đại học Sư phạm Hà Nội",
+              "majors": "Sư phạm, Quản trị nhân sự"
+            },
+            "field": "Giáo dục",
+            "language_requirement": "Không yêu cầu",
+            "compensation_support": "Có phụ cấp công tác"
+          },
+          {
+            "id": "2987489e-00ce-43e3-8e22-898d8dab061e",
+            "location": "Hai Bà Trưng",
+            "title": "Curriculum Developer",
+            "description": "Phát triển và biên soạn chương trình giảng dạy cho các khóa học kỹ năng mềm và phát triển cá nhân.",
+            "technical_skills": [
+              "Thiết kế chương trình giảng dạy",
+              "Biên soạn tài liệu học",
+              "Kiến thức về giáo dục"
+            ],
+            "soft_skills": [
+              "Sáng tạo",
+              "Kỹ năng tổ chức",
+              "Khả năng làm việc nhóm"
+            ],
+            "personal_traits": [
+              "Cẩn thận",
+              "Tỉ mỉ",
+              "Chịu được áp lực"
+            ],
+            "working_type": "Full-time",
+            "working_mode": "Offline",
+            "salary": "10,000,000 - 12,000,000 VND",
+            "posted_time": "3 ngày trước",
+            "working_hours_per_week": "40h/tuần",
+            "student_target": {
+              "university": "Đại học Ngoại ngữ",
+              "majors": "Ngôn ngữ học, Sư phạm"
+            },
+            "field": "Giáo dục",
+            "language_requirement": "Tiếng Anh cơ bản",
+            "compensation_support": "Có phụ cấp ăn trưa"
+          }
+        ]
+      }
+    },
+    {
+      "id": "19",
+      "name": "Công ty Cổ phần METUB Việt Nam",
+      "about": "METUB Việt Nam là công ty truyền thông số hàng đầu, chuyên hỗ trợ các nhà sáng tạo nội dung và phát triển kênh YouTube chuyên nghiệp. Với hơn 5 năm hoạt động, METUB đã trở thành đối tác tin cậy của hàng nghìn nhà sáng tạo tại Việt Nam.",
+      "description": "METUB Việt Nam là công ty truyền thông số, chuyên cung cấp các dịch vụ quản lý nội dung, phát triển kênh YouTube và hỗ trợ các nhà sáng tạo nội dung tại Việt Nam, thuộc mạng lưới đối tác của YouTube.",
+      "score": 4.6,
+      "address": "Tầng 6, Tòa nhà VTC Online, 18 Tam Trinh, Hai Bà Trưng, Hà Nội",
+      "website": "https://metub.net/",
+      "employees": "200-500",
+      "industry": "Chưa rõ",
+      "followers": "5,000 người theo dõi",
+      "recruitment": {
+        "is_hiring": true,
+        "jobs": [
+          {
+            "id": "48e91d89-299f-4134-9196-a356932934d0",
+            "location": "Hà Đông",
+            "title": "Chuyên viên Quản lý Nội dung",
+            "description": "Quản lý và phát triển nội dung cho các kênh YouTube, tạo dựng chiến lược phát triển nội dung.",
+            "technical_skills": [
+              "Quản lý nội dung",
+              "SEO",
+              "Phân tích dữ liệu"
+            ],
+            "soft_skills": [
+              "Kỹ năng giao tiếp",
+              "Kỹ năng tổ chức",
+              "Sáng tạo"
+            ],
+            "personal_traits": [
+              "Chịu trách nhiệm",
+              "Sáng tạo",
+              "Tinh thần cầu tiến"
+            ],
+            "working_type": "Full-time",
+            "working_mode": "Offline",
+            "salary": "12,000,000 - 15,000,000 VND",
+            "posted_time": "1 tuần trước",
+            "working_hours_per_week": "40h/tuần",
+            "student_target": {
+              "university": "Đại học Bách Khoa Hà Nội",
+              "majors": "Truyền thông, Marketing, Công nghệ thông tin"
+            },
+            "field": "Truyền thông số",
+            "language_requirement": "Tiếng Anh giao tiếp cơ bản",
+            "compensation_support": "Có phụ cấp ăn trưa"
+          },
+          {
+            "id": "7438c5c4-47e1-4eaf-b41f-46c9a8da41e1",
+            "location": "Hai Bà Trưng",
+            "title": "Chuyên viên Marketing Kỹ thuật số",
+            "description": "Xây dựng chiến lược marketing kỹ thuật số, quảng cáo trên các nền tảng trực tuyến và tối ưu hóa chiến dịch quảng cáo.",
+            "technical_skills": [
+              "Google Ads",
+              "SEO",
+              "Facebook Ads"
+            ],
+            "soft_skills": [
+              "Kỹ năng giao tiếp",
+              "Làm việc nhóm",
+              "Giải quyết vấn đề"
+            ],
+            "personal_traits": [
+              "Năng động",
+              "Chịu được áp lực",
+              "Tỉ mỉ"
+            ],
+            "working_type": "Full-time",
+            "working_mode": "Offline",
+            "salary": "10,000,000 - 12,000,000 VND",
+            "posted_time": "3 ngày trước",
+            "working_hours_per_week": "40h/tuần",
+            "student_target": {
+              "university": "Đại học Ngoại thương",
+              "majors": "Marketing, Kinh doanh"
+            },
+            "field": "Marketing",
+            "language_requirement": "Tiếng Anh cơ bản",
+            "compensation_support": "Có phụ cấp ăn trưa"
+          }
+        ]
+      }
+    },
+    {
+      "id": "20",
+      "name": "Công ty TNHH Á Châu Logistics",
+      "about": "Á Châu Logistics là công ty logistics hàng đầu tại Việt Nam, chuyên cung cấp các giải pháp vận chuyển và lưu kho hiệu quả. Với hơn 15 năm kinh nghiệm, Á Châu Logistics cam kết mang đến dịch vụ chất lượng cao và tối ưu hóa chuỗi cung ứng cho khách hàng.",
+      "description": "Á Châu Logistics là công ty cung cấp dịch vụ logistics và vận tải, chuyên về vận chuyển hàng hóa trong nước và quốc tế, với mạng lưới phân phối rộng khắp Việt Nam.",
+      "score": 4.1,
+      "address": "Số 12, Đường số 2, KCN Tân Bình, Quận Tân Phú, TP. Hồ Chí Minh",
+      "website": "not available",
+      "employees": "100-200",
+      "industry": "Chưa rõ",
+      "followers": "1,500 người theo dõi",
+      "recruitment": {
+        "is_hiring": true,
+        "jobs": [
+          {
+            "id": "c8130e96-0a9f-4142-9b7d-3aa316698add",
+            "location": "Đống Đa",
+            "title": "Nhân viên Điều phối Vận tải",
+            "description": "Điều phối và giám sát hoạt động vận tải hàng hóa, quản lý tiến độ giao hàng và xử lý các vấn đề phát sinh trong quá trình vận chuyển.",
+            "technical_skills": [
+              "Quản lý vận tải",
+              "Giám sát giao nhận",
+              "Xử lý tình huống"
+            ],
+            "soft_skills": [
+              "Kỹ năng giao tiếp",
+              "Kỹ năng làm việc nhóm",
+              "Giải quyết vấn đề"
+            ],
+            "personal_traits": [
+              "Chịu được áp lực",
+              "Năng động",
+              "Cẩn thận"
+            ],
+            "working_type": "Full-time",
+            "working_mode": "Offline",
+            "salary": "7,000,000 - 9,000,000 VND",
+            "posted_time": "2 ngày trước",
+            "working_hours_per_week": "40h/tuần",
+            "student_target": {
+              "university": "Đại học Giao thông Vận tải TP.HCM",
+              "majors": "Logistics, Kinh tế vận tải"
+            },
+            "field": "Logistics",
+            "language_requirement": "Tiếng Anh cơ bản",
+            "compensation_support": "Có phụ cấp ăn trưa"
+          },
+          {
+            "id": "4c54c610-090e-4785-80e9-09d7cc50df32",
+            "location": "Hai Bà Trưng",
+            "title": "Chuyên viên Kinh doanh Logistics",
+            "description": "Tìm kiếm và phát triển cơ hội kinh doanh mới trong lĩnh vực logistics, xây dựng mối quan hệ với khách hàng và đối tác.",
+            "technical_skills": [
+              "Kinh doanh logistics",
+              "Thương thảo hợp đồng",
+              "Phân tích thị trường"
+            ],
+            "soft_skills": [
+              "Kỹ năng đàm phán",
+              "Kỹ năng bán hàng",
+              "Kỹ năng giao tiếp"
+            ],
+            "personal_traits": [
+              "Năng động",
+              "Chịu được áp lực",
+              "Sáng tạo"
+            ],
+            "working_type": "Full-time",
+            "working_mode": "Offline",
+            "salary": "10,000,000 - 12,000,000 VND",
+            "posted_time": "1 tuần trước",
+            "working_hours_per_week": "40h/tuần",
+            "student_target": {
+              "university": "Đại học Kinh tế TP.HCM",
+              "majors": "Kinh doanh, Quản trị kinh doanh, Logistics"
+            },
+            "field": "Kinh doanh Logistics",
+            "language_requirement": "Tiếng Anh giao tiếp cơ bản",
+            "compensation_support": "Có phụ cấp công tác"
+          },
+          {
+            "id": "7e3e65be-9059-4782-8a34-2e8275cc3839",
+            "location": "Ba Đình",
+            "title": "Nhân viên Kho bãi",
+            "description": "Quản lý và vận hành kho bãi, kiểm tra và giám sát việc lưu trữ hàng hóa, đảm bảo quy trình giao nhận hàng hóa diễn ra đúng hạn.",
+            "technical_skills": [
+              "Quản lý kho",
+              "Giám sát hàng hóa",
+              "Quản lý chuỗi cung ứng"
+            ],
+            "soft_skills": [
+              "Tổ chức công việc",
+              "Chú ý đến chi tiết",
+              "Làm việc nhóm"
+            ],
+            "personal_traits": [
+              "Chịu được áp lực",
+              "Cẩn thận",
+              "Khả năng làm việc dưới cường độ cao"
+            ],
+            "working_type": "Full-time",
+            "working_mode": "Offline",
+            "salary": "5,000,000 - 7,000,000 VND",
+            "posted_time": "3 ngày trước",
+            "working_hours_per_week": "40h/tuần",
+            "student_target": {
+              "university": "Đại học Kinh tế TP.HCM",
+              "majors": "Logistics, Quản lý kho"
+            },
+            "field": "Kho bãi, Vận hành logistics",
+            "language_requirement": "Không yêu cầu",
+            "compensation_support": "Có phụ cấp ăn trưa"
+          }
+        ]
+      }
     }
   ]
 }
