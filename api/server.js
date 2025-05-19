@@ -6,7 +6,7 @@ const forumApi = require('./forumApi')
 const server = express()
 
 // Tạo memory database từ db.json
-const db = require('./db.json')
+const db = require('../db.json')
 const router = jsonServer.router(db)  // Truyền object thay vì file path
 
 const middlewares = jsonServer.defaults()
