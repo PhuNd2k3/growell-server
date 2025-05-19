@@ -92,6 +92,7 @@ server.patch('/votes/:id', (req, res) => {
     return res.json({ success: true, message: 'Cập nhật vote thành công', data: updatedVote });
 });
 
+// Lấy tất cả các kỹ năng từ các công ty để code FE
 server.get('/distinct-skills', (req, res) => {
     const db = router.db;
 
