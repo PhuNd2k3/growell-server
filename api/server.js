@@ -208,15 +208,17 @@ server.get('/match-companies/:userId', (req, res) => {
     });
 });
 
-// Add this before server.use(router)
+// Sửa lại phần cấu hình rewriter và router
 server.use(jsonServer.rewriter({
-    '/api/*': '/$1',
-    '/blog/:resource/:id/show': '/:resource/:id'
+    '/api/*': '/$1'  // Chuyển /api/companies thành /companies
 }));
+
+// Mount router ở cả hai đường dẫn
+server.use('/api', router);  // Cho /api/companies
+server.use('/', router);     // Cho /companies
 
 // Add custom routes before JSON Server router
 server.use('/forum', forumApi)
-server.use('/api', router)
 
 const port = process.env.PORT || 3000;
 server.listen(port, () => {
