@@ -32,6 +32,33 @@
     {
       "id": "11c5",
       "name": "Phú"
+    },
+    {
+      "id": "user01",
+      "name": "Nguyễn Văn A",
+      "university": "Đại học Bách Khoa",
+      "majors": [
+        "Công nghệ thông tin"
+      ],
+      "skills": [
+        "Phần mềm logistics"
+      ],
+      "personal_traits": [
+        "Kỷ luật"
+      ],
+      "working_type_preference": "Full-time",
+      "working_mode_preference": "Offline",
+      "salary_expectation": "1,000,000 - 3,000,000 VND",
+      "industry_interest": [
+        "Công nghệ thông tin",
+        "Thương mại điện tử"
+      ],
+      "language_level": "Tiếng Anh cơ bản",
+      "field_interest": [
+        "Cloud Computing",
+        "Quản lý chuỗi cung ứng"
+      ],
+      "graduation_year": "2025"
     }
   ],
   "posts": [
