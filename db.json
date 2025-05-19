@@ -83,6 +83,34 @@
       "userId": "a648",
       "content": "Test comment qua Postman",
       "createdAt": "2025-05-16T19:00:00.000Z"
+    },
+    {
+      "postId": "1",
+      "userId": "a648",
+      "content": "Test comment qua Postman siêu ",
+      "createdAt": "2025-05-16T19:00:00.000Z",
+      "id": "4_feAJC"
+    },
+    {
+      "postId": "1",
+      "userId": "a648",
+      "content": "Test comment qua Postman siêu rác",
+      "createdAt": "2025-05-16T19:00:00.000Z",
+      "id": "PYqSQ0_"
+    },
+    {
+      "postId": "1",
+      "userId": "a648",
+      "content": "Test comment qua Postman siêu rác 123",
+      "createdAt": "2025-05-16T19:00:00.000Z",
+      "id": "N-BdnZg"
+    },
+    {
+      "id": "1747637627433",
+      "postId": "1",
+      "userId": "a648",
+      "content": "Chị Dương xinh vl",
+      "createdAt": "2025-05-16T19:00:00.000Z"
     }
   ],
   "votes": [
