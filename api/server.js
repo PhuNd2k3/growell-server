@@ -124,6 +124,81 @@ server.get('/distinct-skills', (req, res) => {
     });
 });
 
+server.get('/match-companies/:userId', (req, res) => {
+    const { userId } = req.params;
+    const db = router.db;
+    
+    // Lấy thông tin user
+    const user = db.get('users').find({ id: userId }).value();
+    if (!user) {
+        return res.status(404).json({ 
+            success: false, 
+            message: 'Không tìm thấy thông tin sinh viên' 
+        });
+    }
+
+    // Lấy tất cả companies
+    const companies = db.get('companies').value();
+
+    
+    // Tính điểm match cho mỗi công ty
+    const matchedCompanies = companies.map(company => {
+        let matchScore = 0;
+        let matchReasons = [];
+
+        // Kiểm tra từng job trong công ty
+        company.recruitment?.jobs?.forEach(job => {
+            // Match language - đơn giản hóa: nếu job yêu cầu tiếng Anh và user có tiếng Anh ở bất kỳ trình độ nào
+            if (job.language_requirement && job.language_requirement.includes('Tiếng Anh') && 
+                user.language_level && user.language_level.includes('Tiếng Anh')) {
+                matchScore += 1;
+                matchReasons.push('Có kỹ năng tiếng Anh phù hợp');
+            }
+
+            // Match skills - đơn giản hóa: nếu có ít nhất 1 skill trùng khớp
+            const matchingSkills = user.skills.filter(skill => 
+                job.technical_skills?.includes(skill)
+            );
+            if (matchingSkills.length > 0) {
+                matchScore += 1;
+                matchReasons.push(`Có kỹ năng phù hợp: ${matchingSkills.join(', ')}`);
+            }
+
+            // Match majors - đơn giản hóa: nếu có ít nhất 1 major trùng khớp
+            if (job.student_target?.majors) {
+                const jobMajors = job.student_target.majors.split(',').map(m => m.trim());
+                const matchingMajors = user.majors.filter(major => 
+                    jobMajors.includes(major)
+                );
+                if (matchingMajors.length > 0) {
+                    matchScore += 1;
+                    matchReasons.push(`Chuyên ngành phù hợp: ${matchingMajors.join(', ')}`);
+                }
+            }
+
+            // Match university - đơn giản hóa: nếu trường đại học trùng khớp
+            if (job.student_target?.university === user.university) {
+                matchScore += 1;
+                matchReasons.push('Trường đại học phù hợp');
+            }
+        });
+
+        return {
+            ...company,
+            matchScore,
+            matchReasons: matchReasons.length > 0 ? matchReasons : ['Có vị trí phù hợp với sinh viên'],
+            recruitment: company.recruitment
+        };
+    })
+    .sort((a, b) => b.matchScore - a.matchScore); // Sắp xếp theo điểm match giảm dần
+
+    // tra ve 5 công ty có match score cao nhat 
+    const top5Companies = matchedCompanies.slice(0, 5);
+    return res.json({
+        success: true,
+        data: top5Companies
+    });
+});
 
 // Add this before server.use(router)
 server.use(jsonServer.rewriter({
