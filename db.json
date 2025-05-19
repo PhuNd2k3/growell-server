@@ -60,6 +60,28 @@
         "FPT",
         "Viettel"
       ]
+    },
+    {
+      "id": "1747655912208",
+      "userId": "1",
+      "title": "Tìm hiểu về công ty ABC",
+      "content": "Ở đây họ có ép nhân viên làm thêm nhiều không ạ ?",
+      "tags": [],
+      "upvotes": 0,
+      "downvotes": 0,
+      "createdAt": "2025-05-19T11:58:32.208Z"
+    },
+    {
+      "id": "1747656475427",
+      "userId": "1",
+      "title": "Tìm hiểu về công ty Google",
+      "content": "Công ty có nhiều người nước ngoài không ạ ?",
+      "tags": [
+        "GG"
+      ],
+      "upvotes": 0,
+      "downvotes": 0,
+      "createdAt": "2025-05-19T12:07:55.427Z"
     }
   ],
   "comments": [
@@ -83,6 +105,27 @@
       "userId": "a648",
       "content": "Test comment qua Postman",
       "createdAt": "2025-05-16T19:00:00.000Z"
+    },
+    {
+      "id": "1747653387955",
+      "postId": "1",
+      "userId": "siuuu",
+      "content": "uầy ghê vãi",
+      "createdAt": "2025-05-19T11:16:27.955Z"
+    },
+    {
+      "id": "1747656227899",
+      "postId": "1",
+      "userId": "siuuu",
+      "content": "nghe vui thế",
+      "createdAt": "2025-05-19T12:03:47.899Z"
+    },
+    {
+      "id": "1747656386017",
+      "postId": "1",
+      "userId": "siuuu",
+      "content": "mình cũng muốn apply",
+      "createdAt": "2025-05-19T12:06:26.017Z"
     }
   ],
   "votes": [
