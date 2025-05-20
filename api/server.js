@@ -23,6 +23,196 @@ server.use((req, res, next) => {
   next()
 })
 
+// Custom endpoint to get company details by ID
+server.get('/companies/:id', (req, res) => {
+  const { id } = req.params;
+  const db = router.db;
+  
+  const company = db.get('companies').find({ id: id }).value();
+  
+  if (!company) {
+    return res.status(404).json({ success: false, message: 'Không tìm thấy công ty' });
+  }
+  
+  return res.json(company);
+});
+
+// Custom endpoint to get company reviews with votes and more details
+server.get('/companies/:id/reviews', (req, res) => {
+  const { id } = req.params;
+  const db = router.db;
+  
+  const company = db.get('companies').find({ id: id }).value();
+  
+  if (!company) {
+    return res.status(404).json({ success: false, message: 'Không tìm thấy công ty' });
+  }
+  
+  // Get reviews from company
+  const reviews = company.reviews || [];
+  
+  // Generate random votes for each review for demo purposes
+  const reviewsWithVotes = reviews.map(review => {
+    // Static mock data for demo
+    const upvotes = Math.floor(Math.random() * 15);
+    const downvotes = Math.floor(Math.random() * 5);
+    
+    // Format replies with avatar and timestamps
+    const repliesWithDetails = (review.replies || []).map(reply => ({
+      ...reply,
+      avatar: generateAvatar(reply.user),
+      location: reply.user === "Hoàng Phong" ? "Hà Nội" : "",
+      votes: {
+        upvotes: Math.floor(Math.random() * 10),
+        downvotes: 0
+      }
+    }));
+    
+    return {
+      ...review,
+      avatar: generateAvatar(review.user),
+      company: company.name,
+      votes: {
+        upvotes,
+        downvotes,
+        total: upvotes - downvotes
+      },
+      isCompanyMember: review.user === "Đại diện công ty",
+      replies: repliesWithDetails
+    };
+  });
+  
+  return res.json({
+    success: true,
+    count: reviewsWithVotes.length,
+    avgRating: company.rating || 0,
+    ratingCount: company.ratingCount || 0,
+    data: reviewsWithVotes
+  });
+});
+
+// Helper function to generate avatar URL
+function generateAvatar(name) {
+  // For demo, return a random avatar
+  const gender = Math.random() > 0.5 ? 'men' : 'women';
+  const id = Math.floor(Math.random() * 50);
+  return `https://randomuser.me/api/portraits/${gender}/${id}.jpg`;
+}
+
+// Custom endpoint to add new review to company
+server.post('/companies/:id/reviews', (req, res) => {
+  const { id } = req.params;
+  const newReview = req.body;
+  
+  if (!newReview || !newReview.content) {
+    return res.status(400).json({ success: false, message: 'Thiếu thông tin đánh giá' });
+  }
+  
+  const db = router.db;
+  const company = db.get('companies').find({ id: id }).value();
+  
+  if (!company) {
+    return res.status(404).json({ success: false, message: 'Không tìm thấy công ty' });
+  }
+  
+  // Ensure company has a reviews array
+  if (!company.reviews) {
+    company.reviews = [];
+  }
+  
+  // Add the new review
+  company.reviews.push(newReview);
+  
+  // Update company in database
+  db.get('companies').find({ id: id }).assign({ reviews: company.reviews }).write();
+  
+  return res.status(201).json({ 
+    success: true, 
+    message: 'Thêm đánh giá thành công',
+    reviews: company.reviews
+  });
+});
+
+// Endpoint to upvote/downvote a review
+server.post('/companies/:id/reviews/:reviewId/vote', (req, res) => {
+  const { id, reviewId } = req.params;
+  const { voteType } = req.body; // 'upvote' or 'downvote'
+  
+  if (!voteType || (voteType !== 'upvote' && voteType !== 'downvote')) {
+    return res.status(400).json({ success: false, message: 'Loại vote không hợp lệ' });
+  }
+  
+  const db = router.db;
+  const company = db.get('companies').find({ id: id }).value();
+  
+  if (!company) {
+    return res.status(404).json({ success: false, message: 'Không tìm thấy công ty' });
+  }
+  
+  // Find the review
+  if (!company.reviews) {
+    return res.status(404).json({ success: false, message: 'Không tìm thấy đánh giá' });
+  }
+  
+  const reviewIndex = company.reviews.findIndex(review => review.id === reviewId);
+  
+  if (reviewIndex === -1) {
+    return res.status(404).json({ success: false, message: 'Không tìm thấy đánh giá' });
+  }
+  
+  // For demo purposes, we'll just acknowledge the vote but not actually store it
+  return res.status(200).json({ 
+    success: true, 
+    message: `${voteType === 'upvote' ? 'Upvote' : 'Downvote'} thành công`,
+    reviewId
+  });
+});
+
+// Custom endpoint to add reply to a review
+server.post('/companies/:id/reviews/:reviewId/replies', (req, res) => {
+  const { id, reviewId } = req.params;
+  const newReply = req.body;
+  
+  if (!newReply || !newReply.content) {
+    return res.status(400).json({ success: false, message: 'Thiếu thông tin trả lời' });
+  }
+  
+  const db = router.db;
+  const company = db.get('companies').find({ id: id }).value();
+  
+  if (!company) {
+    return res.status(404).json({ success: false, message: 'Không tìm thấy công ty' });
+  }
+  
+  // Find the review
+  if (!company.reviews) {
+    return res.status(404).json({ success: false, message: 'Không tìm thấy đánh giá' });
+  }
+  
+  const reviewIndex = company.reviews.findIndex(review => review.id === reviewId);
+  
+  if (reviewIndex === -1) {
+    return res.status(404).json({ success: false, message: 'Không tìm thấy đánh giá' });
+  }
+  
+  // Ensure review has a replies array
+  if (!company.reviews[reviewIndex].replies) {
+    company.reviews[reviewIndex].replies = [];
+  }
+  
+  // Add the new reply
+  company.reviews[reviewIndex].replies.push(newReply);
+  
+  // Update company in database
+  db.get('companies').find({ id: id }).assign({ reviews: company.reviews }).write();
+  
+  return res.status(201).json({ 
+    success: true, 
+    message: 'Thêm trả lời thành công',
+    reviews: company.reviews
+  });
+});
+
 // Custom endpoint cho tạo comment
 server.post('/postComments', (req, res) => {
     const { postId, userId, content, createdAt } = req.body;
