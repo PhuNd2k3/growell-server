@@ -403,7 +403,162 @@ server.get('/match-companies/:userId', (req, res) => {
     });
 });
 
-// Sửa lại phần cấu hình rewriter và router
+// --- FORUM API START ---
+// Get all posts with related data
+server.get('/forum/posts', (req, res) => {
+  try {
+    const db = router.db;
+    const postsRaw = db.get('posts').value();
+    const users = db.get('users').value();
+    const postCommentsAll = db.get('postComments').value();
+    const votes = db.get('votes').value();
+    const posts = postsRaw.map(post => {
+      const author = users.find(user => user.id === post.userId);
+      const postComments = postCommentsAll.filter(comment => String(comment.postId) == String(post.id));
+      const postVotes = votes.filter(vote => vote.postId === post.id);
+      return {
+        id: post.id,
+        author: author?.name || 'Unknown User',
+        avatar: `https://randomuser.me/api/portraits/${Math.random() > 0.5 ? 'men' : 'women'}/${Math.floor(Math.random() * 50)}.jpg`,
+        time: post.createdAt ? new Date(post.createdAt).toLocaleString('vi-VN', { 
+          year: 'numeric',
+          month: 'numeric',
+          day: 'numeric',
+          hour: 'numeric',
+          minute: 'numeric'
+        }) : 'Invalid Date',
+        content: post.content,
+        title: post.title,
+        tags: post.tags || [],
+        voteCount: postVotes.filter(v => v.type === 'upvote').length - postVotes.filter(v => v.type === 'downvote').length,
+        commentCount: postComments.length
+      };
+    });
+    res.json(posts);
+  } catch (error) {
+    console.error('Error fetching posts:', error);
+    res.status(500).json({ error: 'Internal server error' });
+  }
+});
+
+// Create a new post
+server.post('/forum/posts', (req, res) => {
+  try {
+    const db = router.db;
+    const { title, content, tags } = req.body;
+    const newPost = {
+      id: Date.now().toString(),
+      userId: "1", // Using mock userId for now
+      title,
+      content,
+      tags: tags || [],
+      upvotes: 0,
+      downvotes: 0,
+      createdAt: new Date().toISOString()
+    };
+    db.get('posts').push(newPost).write();
+    res.status(201).json(newPost);
+  } catch (error) {
+    console.error('Error creating post:', error);
+    res.status(500).json({ error: 'Internal server error' });
+  }
+});
+
+// Get comments by postId
+server.get('/forum/comments', (req, res) => {
+  try {
+    const { postId } = req.query;
+    if (!postId) {
+      return res.status(400).json({ error: 'postId is required' });
+    }
+    const db = router.db;
+    const comments = db.get('postComments').filter(comment => String(comment.postId) == String(postId)).value();
+    const users = db.get('users').value();
+    const commentsWithUser = comments.map(comment => {
+      const user = users.find(u => u.id === comment.userId);
+      return {
+        id: comment.id,
+        author: user?.name || 'Unknown User',
+        avatar: `https://randomuser.me/api/portraits/${Math.random() > 0.5 ? 'men' : 'women'}/${Math.floor(Math.random() * 50)}.jpg`,
+        time: comment.createdAt ? new Date(comment.createdAt).toLocaleString('vi-VN', {
+          year: 'numeric', month: 'numeric', day: 'numeric', hour: 'numeric', minute: 'numeric'
+        }) : 'Invalid Date',
+        content: comment.content
+      };
+    });
+    res.json(commentsWithUser);
+  } catch (error) {
+    console.error('Error fetching comments:', error);
+    res.status(500).json({ error: 'Internal server error' });
+  }
+});
+
+// Create a new comment
+server.post('/forum/comments', (req, res) => {
+  try {
+    const db = router.db;
+    const { postId, userId, content } = req.body;
+    const newComment = {
+      id: Date.now().toString(),
+      postId,
+      userId,
+      content,
+      createdAt: new Date().toISOString()
+    };
+    db.get('postComments').push(newComment).write();
+    res.status(201).json(newComment);
+  } catch (error) {
+    console.error('Error creating comment:', error);
+    res.status(500).json({ error: 'Internal server error' });
+  }
+});
+
+// Create a new vote
+server.post('/forum/votes', (req, res) => {
+  try {
+    const db = router.db;
+    const { postId, userId, type } = req.body;
+    const newVote = {
+      id: Date.now().toString(),
+      postId,
+      userId,
+      type,
+      createdAt: new Date().toISOString()
+    };
+    db.get('votes').push(newVote).write();
+    res.status(201).json(newVote);
+  } catch (error) {
+    console.error('Error creating vote:', error);
+    res.status(500).json({ error: 'Internal server error' });
+  }
+});
+
+// Custom endpoint cho tạo comment (để tương thích với frontend)
+server.post('/forum/postComments', (req, res) => {
+  try {
+    const db = router.db;
+    const { postId, userId, content, createdAt } = req.body;
+    if (!postId || !userId || !content) {
+      return res.status(400).json({ success: false, message: 'Thiếu thông tin comment' });
+    }
+
+    const newComment = {
+      id: Date.now().toString(),
+      postId,
+      userId,
+      content,
+      createdAt: createdAt || new Date().toISOString()
+    };
+
+    db.get('postComments').push(newComment).write();
+    return res.status(201).json({ success: true, message: 'Tạo comment thành công', data: newComment });
+  } catch (error) {
+    console.error('Error creating post comment:', error);
+    res.status(500).json({ error: 'Internal server error' });
+  }
+});
+// --- FORUM API END ---
+
 server.use(jsonServer.rewriter({
     '/api/*': '/$1'  // Chuyển /api/companies thành /companies
 }));
@@ -411,9 +566,6 @@ server.use(jsonServer.rewriter({
 // Mount router ở cả hai đường dẫn
 server.use('/api', router);  // Cho /api/companies
 server.use('/', router);     // Cho /companies
-
-// Add custom routes before JSON Server router
-server.use('/forum', forumApi)
 
 const port = process.env.PORT || 3000;
 server.listen(port, () => {
