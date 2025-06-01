@@ -182,7 +182,147 @@
     }
   ],
   "companies": [
-        {      "id": "1",      "name": "FPT Software",      "about": "Trong hơn 15 năm hoạt động, 247Express đã khẳng định vị thế là công ty logistics hàng đầu tại Việt Nam, cung cấp các giải pháp giao hàng nhanh và hiệu quả với mạng lưới rộng khắp cả nước. 247Express cam kết mang đến trải nghiệm vận chuyển tối ưu, hỗ trợ doanh nghiệp và cá nhân trong việc kết nối và phát triển kinh doanh.",      "description": "Công ty phần mềm lớn tại Việt Nam",      "score": 4.5,      "address": "Tầng 10, Tòa nhà CT Group, 197 Trần Huy Liệu, Phường Trung Liệt, Quận Đống Đa, Hà Nội",      "website": "https://247express.vn/",      "employees": "500-1000",      "industry": "Phát triển phần mềm",      "followers": "not available",      "recruitment": {        "is_hiring": true,        "jobs": [          {            "id": "6dfeeb50-56ce-4da0-baa2-5d3fb14097af",            "location": "Hoàn Kiếm",            "title": "Logistics Coordinator",            "description": "Phối hợp các hoạt động vận chuyển, theo dõi đơn hàng và làm việc với đối tác vận tải.",            "technical_skills": [              "Quản lý chuỗi cung ứng",              "Excel",              "Phần mềm logistics"            ],            "soft_skills": [              "Giao tiếp",              "Giải quyết vấn đề"            ],            "personal_traits": [              "Kỷ luật",              "Tổ chức tốt"            ],            "working_type": "Full-time",            "working_mode": "Offline",            "salary": "10,000,000 - 14,000,000 VND",            "posted_time": "3 ngày trước",            "working_hours_per_week": "40h/tuần",            "student_target": {              "university": "Đại học Bách Khoa",              "majors": "Logistics, Quản lý công nghiệp, Kinh tế vận tải"            },            "field": "Logistics",            "language_requirement": "Tiếng Anh cơ bản",            "compensation_support": "Có phụ cấp ăn trưa 800,000 VND"          },          {            "id": "88525a3e-a2ba-450f-b142-f37a1bada8a7",            "location": "Hai Bà Trưng",            "title": "Delivery Driver",            "description": "Giao hàng nội thành, theo tuyến cố định, đảm bảo thời gian và chất lượng.",            "technical_skills": [              "Sử dụng ứng dụng định vị",              "Hiểu biết địa lý thành phố"            ],            "soft_skills": [              "Giao tiếp khách hàng",              "Quản lý thời gian"            ],            "personal_traits": [              "Trách nhiệm",              "Cẩn thận"            ],            "working_type": "Part-time",            "working_mode": "Offline",            "salary": "Tính theo đơn hàng (5,000 VND/đơn)",            "posted_time": "1 ngày trước",            "working_hours_per_week": "<20h/tuần",            "student_target": {              "university": "Đại học Bách Khoa",              "majors": "Không yêu cầu chuyên ngành"            },            "field": "Giao nhận",            "language_requirement": "Không yêu cầu",            "compensation_support": "Hỗ trợ xăng xe 500,000 VND/tháng"          }        ]      },      "comments": [        1      ],      "relatedPosts": [        1,        2      ],      "rating": 4.5,      "ratingCount": 56,      "reviews": [        {          "id": "review1",          "user": "Hoàng Nam",          "rating": 5,          "content": "Mình thực tập ở FPT Software được 3 tháng rồi. Môi trường làm việc năng động, anh chị mentor nhiệt tình hỗ trợ. Được học hỏi nhiều kỹ năng mới và có cơ hội làm việc với các dự án thực tế.",          "date": "2024-05-15T10:30:00Z",          "replies": [            {              "id": "reply1",              "user": "Minh Anh",              "content": "Bạn có thể chia sẻ thêm về quy trình tuyển thực tập sinh không?",              "date": "2024-05-15T14:20:00Z"            },            {              "id": "reply2",              "user": "Hoàng Nam",              "content": "Mình nộp hồ sơ qua website của FPT, sau đó trải qua 2 vòng: test kỹ thuật và phỏng vấn. Quá trình khá nhanh, chỉ khoảng 2 tuần từ lúc apply đến khi nhận offer.",              "date": "2024-05-15T15:45:00Z"            }          ]        },        {          "id": "review2",          "user": "Thanh Tùng",          "rating": 4,          "content": "Làm việc tại FPT Software giúp mình phát triển nhiều kỹ năng chuyên môn. Dự án đa dạng, từ web, mobile đến AI. Điểm trừ là đôi khi OT nhiều, nhưng đổi lại mức lương thực tập khá tốt so với thị trường.",          "date": "2024-05-10T09:15:00Z",          "replies": []        },        {          "id": "review3",          "user": "Đại diện công ty",          "rating": 5,          "content": "Cảm ơn các bạn đã đánh giá về trải nghiệm làm việc tại FPT Software. Chúng tôi luôn cố gắng tạo môi trường làm việc tốt nhất cho nhân viên và thực tập sinh. Nếu các bạn có bất kỳ góp ý nào, vui lòng liên hệ với HR để được hỗ trợ.",          "date": "2024-05-12T11:20:00Z",          "replies": []        },        {          "id": "review4",          "user": "Thu Hà",          "rating": 3,          "content": "Mình đánh giá 3 sao vì mặc dù được học hỏi nhiều nhưng khối lượng công việc khá nặng đối với thực tập sinh. Mentor thì tốt nhưng team lead đôi khi thiếu kiên nhẫn với người mới. Phúc lợi thì ổn.",          "date": "2024-05-08T16:40:00Z",          "replies": [            {              "id": "reply3",              "user": "Đại diện công ty",              "content": "Chào bạn Thu Hà, chúng tôi rất tiếc về trải nghiệm của bạn. FPT Software luôn lắng nghe mọi phản hồi để cải thiện môi trường làm việc. Mong bạn có thể liên hệ trực tiếp với phòng HR để chia sẻ chi tiết hơn về vấn đề này.",              "date": "2024-05-09T09:10:00Z"            }          ]        }      ]    },
+    {
+      "id": "1",
+      "name": "FPT Software",
+      "about": "Trong hơn 15 năm hoạt động, 247Express đã khẳng định vị thế là công ty logistics hàng đầu tại Việt Nam, cung cấp các giải pháp giao hàng nhanh và hiệu quả với mạng lưới rộng khắp cả nước. 247Express cam kết mang đến trải nghiệm vận chuyển tối ưu, hỗ trợ doanh nghiệp và cá nhân trong việc kết nối và phát triển kinh doanh.",
+      "description": "Công ty phần mềm lớn tại Việt Nam",
+      "score": 4.5,
+      "address": "Tầng 10, Tòa nhà CT Group, 197 Trần Huy Liệu, Phường Trung Liệt, Quận Đống Đa, Hà Nội",
+      "website": "https://247express.vn/",
+      "employees": "500-1000",
+      "industry": "Phát triển phần mềm",
+      "followers": "not available",
+      "recruitment": {
+        "is_hiring": true,
+        "jobs": [
+          {
+            "id": "6dfeeb50-56ce-4da0-baa2-5d3fb14097af",
+            "location": "Hoàn Kiếm",
+            "title": "Logistics Coordinator",
+            "description": "Phối hợp các hoạt động vận chuyển, theo dõi đơn hàng và làm việc với đối tác vận tải.",
+            "technical_skills": [
+              "Quản lý chuỗi cung ứng",
+              "Excel",
+              "Phần mềm logistics"
+            ],
+            "soft_skills": [
+              "Giao tiếp",
+              "Giải quyết vấn đề"
+            ],
+            "personal_traits": [
+              "Kỷ luật",
+              "Tổ chức tốt"
+            ],
+            "working_type": "Full-time",
+            "working_mode": "Offline",
+            "salary": "10,000,000 - 14,000,000 VND",
+            "posted_time": "3 ngày trước",
+            "working_hours_per_week": "40h/tuần",
+            "student_target": {
+              "university": "Đại học Bách Khoa",
+              "majors": "Logistics, Quản lý công nghiệp, Kinh tế vận tải"
+            },
+            "field": "Logistics",
+            "language_requirement": "Tiếng Anh cơ bản, Tiếng Nhật lợi thế",
+            "compensation_support": "Có phụ cấp ăn trưa 800,000 VND"
+          },
+          {
+            "id": "88525a3e-a2ba-450f-b142-f37a1bada8a7",
+            "location": "Hai Bà Trưng",
+            "title": "Delivery Driver",
+            "description": "Giao hàng nội thành, theo tuyến cố định, đảm bảo thời gian và chất lượng.",
+            "technical_skills": [
+              "Sử dụng ứng dụng định vị",
+              "Hiểu biết địa lý thành phố"
+            ],
+            "soft_skills": [
+              "Giao tiếp khách hàng",
+              "Quản lý thời gian"
+            ],
+            "personal_traits": [
+              "Trách nhiệm",
+              "Cẩn thận"
+            ],
+            "working_type": "Part-time",
+            "working_mode": "Offline",
+            "salary": "Tính theo đơn hàng (5,000 VND/đơn)",
+            "posted_time": "1 ngày trước",
+            "working_hours_per_week": "<20h/tuần",
+            "student_target": {
+              "university": "Đại học Bách Khoa",
+              "majors": "Không yêu cầu chuyên ngành"
+            },
+            "field": "Giao nhận",
+            "language_requirement": "Không yêu cầu",
+            "compensation_support": "Hỗ trợ xăng xe 500,000 VND/tháng"
+          }
+        ]
+      },
+      "comments": [
+        1
+      ],
+      "relatedPosts": [
+        1,
+        2
+      ],
+      "rating": 4.5,
+      "ratingCount": 56,
+      "reviews": [
+        {
+          "id": "review1",
+          "user": "Hoàng Nam",
+          "rating": 5,
+          "content": "Mình thực tập ở FPT Software được 3 tháng rồi. Môi trường làm việc năng động, anh chị mentor nhiệt tình hỗ trợ. Được học hỏi nhiều kỹ năng mới và có cơ hội làm việc với các dự án thực tế.",
+          "date": "2024-05-15T10:30:00Z",
+          "replies": [
+            {
+              "id": "reply1",
+              "user": "Minh Anh",
+              "content": "Bạn có thể chia sẻ thêm về quy trình tuyển thực tập sinh không?",
+              "date": "2024-05-15T14:20:00Z"
+            },
+            {
+              "id": "reply2",
+              "user": "Hoàng Nam",
+              "content": "Mình nộp hồ sơ qua website của FPT, sau đó trải qua 2 vòng: test kỹ thuật và phỏng vấn. Quá trình khá nhanh, chỉ khoảng 2 tuần từ lúc apply đến khi nhận offer.",
+              "date": "2024-05-15T15:45:00Z"
+            }
+          ]
+        },
+        {
+          "id": "review2",
+          "user": "Thanh Tùng",
+          "rating": 4,
+          "content": "Làm việc tại FPT Software giúp mình phát triển nhiều kỹ năng chuyên môn. Dự án đa dạng, từ web, mobile đến AI. Điểm trừ là đôi khi OT nhiều, nhưng đổi lại mức lương thực tập khá tốt so với thị trường.",
+          "date": "2024-05-10T09:15:00Z",
+          "replies": []
+        },
+        {
+          "id": "review3",
+          "user": "Đại diện công ty",
+          "rating": 5,
+          "content": "Cảm ơn các bạn đã đánh giá về trải nghiệm làm việc tại FPT Software. Chúng tôi luôn cố gắng tạo môi trường làm việc tốt nhất cho nhân viên và thực tập sinh. Nếu các bạn có bất kỳ góp ý nào, vui lòng liên hệ với HR để được hỗ trợ.",
+          "date": "2024-05-12T11:20:00Z",
+          "replies": []
+        },
+        {
+          "id": "review4",
+          "user": "Thu Hà",
+          "rating": 3,
+          "content": "Mình đánh giá 3 sao vì mặc dù được học hỏi nhiều nhưng khối lượng công việc khá nặng đối với thực tập sinh. Mentor thì tốt nhưng team lead đôi khi thiếu kiên nhẫn với người mới. Phúc lợi thì ổn.",
+          "date": "2024-05-08T16:40:00Z",
+          "replies": [
+            {
+              "id": "reply3",
+              "user": "Đại diện công ty",
+              "content": "Chào bạn Thu Hà, chúng tôi rất tiếc về trải nghiệm của bạn. FPT Software luôn lắng nghe mọi phản hồi để cải thiện môi trường làm việc. Mong bạn có thể liên hệ trực tiếp với phòng HR để chia sẻ chi tiết hơn về vấn đề này.",
+              "date": "2024-05-09T09:10:00Z"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "2",
       "name": "Toyota Vietnam",
@@ -2370,7 +2510,7 @@
               "majors": "Khoa học máy tính, Công nghệ phần mềm"
             },
             "field": "Phát triển phần mềm",
-            "language_requirement": "Tiếng Anh giao tiếp",
+            "language_requirement": "Tiếng Anh giao tiếp, Tiếng Nhật lợi thế",
             "compensation_support": "Có hỗ trợ ăn trưa, đi lại và thưởng dự án"
           },
           {
@@ -2510,7 +2650,7 @@
               "majors": "Tài chính, Kế toán, Kiểm toán"
             },
             "field": "Tài chính - Kế toán",
-            "language_requirement": "Tiếng Anh cơ bản",
+            "language_requirement": "Tiếng Anh cơ bản, Tiếng Hàn lợi thế",
             "compensation_support": "Có hỗ trợ ăn trưa và đi lại"
           },
           {
@@ -2712,7 +2852,7 @@
               "majors": "Marketing, Truyền thông đa phương tiện"
             },
             "field": "Marketing",
-            "language_requirement": "Tiếng Anh giao tiếp cơ bản",
+            "language_requirement": "Tiếng Anh giao tiếp cơ bản, Tiếng Nhật N3",
             "compensation_support": "Hỗ trợ ăn trưa, gửi xe"
           },
           {
@@ -2822,7 +2962,7 @@
               "majors": "Quản trị kinh doanh, Quản trị nhà hàng khách sạn"
             },
             "field": "Quản lý nhà hàng",
-            "language_requirement": "Tiếng Anh cơ bản",
+            "language_requirement": "Tiếng Anh cơ bản, Tiếng Hàn lợi thế",
             "compensation_support": "Thưởng doanh thu, phụ cấp gửi xe"
           },
           {
@@ -2900,7 +3040,7 @@
               "majors": "Marketing, Truyền thông, PR"
             },
             "field": "Account & Client Service",
-            "language_requirement": "Tiếng Anh giao tiếp",
+            "language_requirement": "Tiếng Anh giao tiếp, Tiếng Hàn lợi thế",
             "compensation_support": "Trợ cấp điện thoại, bonus theo KPI"
           },
           {
@@ -3010,7 +3150,7 @@
               "majors": "Kinh tế xây dựng, Kỹ thuật xây dựng"
             },
             "field": "Xây dựng",
-            "language_requirement": "Tiếng Anh cơ bản",
+            "language_requirement": "Tiếng Anh cơ bản, Tiếng Nhật N3",
             "compensation_support": "Phụ cấp ăn trưa, xăng xe"
           },
           {
@@ -9411,7 +9551,7 @@
               "majors": "Sư phạm tiếng Anh, Ngôn ngữ Anh"
             },
             "field": "Giáo dục",
-            "language_requirement": "Tiếng Anh và Tiếng Việt",
+            "language_requirement": "Tiếng Anh và Tiếng Việt, Tiếng Hàn lợi thế",
             "compensation_support": "Đào tạo chuyên môn"
           },
           {
@@ -10733,7 +10873,7 @@
               "majors": "Tất cả ngành"
             },
             "field": "CSKH",
-            "language_requirement": "Tiếng Việt, ưu tiên biết tiếng Nhật/Anh",
+            "language_requirement": "Tiếng Việt, ưu tiên biết Tiếng Nhật/Anh",
             "compensation_support": "Thưởng hiệu suất, đào tạo kỹ năng"
           },
           {
