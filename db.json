@@ -151,7 +151,7 @@
   },
   {
     "id": "4",
-    "userId": 11c5,
+    "userId": "11c5",
     "companyId": 4,
     "title": "Đánh giá về 247Express",
     "content": "Công ty 247Express có hệ thống giao hàng khá tốt và phát triển nhanh trong ngành logistics.\nĐiểm cộng:\n✅ Lương ổn định và cạnh tranh trong ngành giao vận.\n✅ Quy trình vận hành hiệu quả, có hệ thống.\n✅ Cơ hội thăng tiến cao nếu gắn bó lâu dài.\nĐiểm trừ:\n❌ Làm việc trong môi trường giao vận nên đôi khi áp lực do tiến độ, đặc biệt mùa cao điểm.\n❌ Cần kỹ năng tổ chức và xử lý tình huống tốt.",
@@ -242,7 +242,7 @@
   },
     {
     "id": "11",
-    "userId": 4d96,
+    "userId": "4d96",
     "companyId": 1,
     "title": "Review về công việc tại Thiên Quang Digital",
     "content": "Mình từng làm việc tại CÔNG TY CỔ PHẦN CÔNG NGHỆ SỐ THIÊN QUANG với vị trí Software Engineer. Điểm cộng lớn là công ty có môi trường chuyên nghiệp, quy trình làm việc rõ ràng và có đầu tư vào công nghệ mới. Sếp thân thiện, hay hỏi han nhân viên. Tuy nhiên, áp lực dự án đôi khi cao, OT cũng có nhưng không quá thường xuyên. Lương ổn với mặt bằng chung.",
@@ -252,7 +252,7 @@
   },
   {
     "id": "12",
-    "userId": 4d96,
+    "userId": "4d96",
     "companyId": 2,
     "title": "Chia sẻ thật về công ty TIANXINGYUN",
     "content": "Mình không đánh giá cao cách quản lý tại CÔNG TY TNHH THƯƠNG MẠI TIANXINGYUN VIỆT NAM. Lãnh đạo thiếu tầm nhìn dài hạn, nhân sự thay đổi liên tục. Vị trí E-commerce Specialist nhưng công việc thực tế lại bao gồm rất nhiều việc không liên quan. Lương đúng như đăng nhưng không có thưởng hay phụ cấp thêm.",
@@ -282,7 +282,7 @@
   },
   {
     "id": "15",
-    "userId": 4d96,
+    "userId": "4d96",
     "companyId": 5,
     "title": "CNV Holdings là lựa chọn ổn cho ngành BĐS",
     "content": "Mình đánh giá cao môi trường làm việc tại CNV HOLDINGS. Với vị trí Real Estate Analyst, mình được tham gia vào nhiều dự án thực tế, học hỏi trực tiếp từ các anh chị có kinh nghiệm lâu năm. Lương không quá cao nhưng ổn định, có thêm một số khoản thưởng theo dự án. Văn phòng hiện đại, làm việc thoải mái.",
@@ -312,7 +312,7 @@
   },
   {
     "id": "118",
-    "userId": 4d96,
+    "userId": "4d96",
     "companyId": 8,
     "title": "Rich Nguyen Academy còn nhiều vấn đề nội bộ",
     "content": "Công ty có định hướng tốt về đào tạo kỹ năng mềm, nhưng cách quản lý còn khá thủ công. Nhiều khi sắp xếp lớp học và phân công không hợp lý, khiến nhân viên phải làm việc quá sức. Chính sách thưởng và đãi ngộ chưa thực sự hấp dẫn. Môi trường làm việc thân thiện nhưng thiếu chuyên nghiệp.",
@@ -332,7 +332,7 @@
   },
   {
     "id": "20",
-    "userId": 11c5,
+    "userId": "11c5",
     "companyId": 10,
     "title": "Á Châu Logistics – chỉ phù hợp làm tạm thời",
     "content": "Làm Điều phối Vận tải tại Á Châu Logistics khá cực, vì thường xuyên phải theo dõi tiến độ hàng hóa 24/7. Công ty thiếu nhân sự, nên một người làm việc của hai người. Chính sách không rõ ràng, thưởng Tết rất ít. Phù hợp nếu bạn cần công việc tạm thời nhưng không nên gắn bó lâu dài.",
