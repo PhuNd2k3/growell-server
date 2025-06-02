@@ -151,7 +151,7 @@
   },
   {
     "id": "4",
-    "userId": 1,
+    "userId": 11c5,
     "companyId": 4,
     "title": "Đánh giá về 247Express",
     "content": "Công ty 247Express có hệ thống giao hàng khá tốt và phát triển nhanh trong ngành logistics.\nĐiểm cộng:\n✅ Lương ổn định và cạnh tranh trong ngành giao vận.\n✅ Quy trình vận hành hiệu quả, có hệ thống.\n✅ Cơ hội thăng tiến cao nếu gắn bó lâu dài.\nĐiểm trừ:\n❌ Làm việc trong môi trường giao vận nên đôi khi áp lực do tiến độ, đặc biệt mùa cao điểm.\n❌ Cần kỹ năng tổ chức và xử lý tình huống tốt.",
@@ -239,6 +239,106 @@
       "Bida",
       "Sales"
     ]
+  },
+    {
+    "id": "11",
+    "userId": 4d96,
+    "companyId": 1,
+    "title": "Review về công việc tại Thiên Quang Digital",
+    "content": "Mình từng làm việc tại CÔNG TY CỔ PHẦN CÔNG NGHỆ SỐ THIÊN QUANG với vị trí Software Engineer. Điểm cộng lớn là công ty có môi trường chuyên nghiệp, quy trình làm việc rõ ràng và có đầu tư vào công nghệ mới. Sếp thân thiện, hay hỏi han nhân viên. Tuy nhiên, áp lực dự án đôi khi cao, OT cũng có nhưng không quá thường xuyên. Lương ổn với mặt bằng chung.",
+    "upvotes": 6,
+    "downvotes": 1,
+    "tags": ["thiên quang", "software"]
+  },
+  {
+    "id": "12",
+    "userId": 4d96,
+    "companyId": 2,
+    "title": "Chia sẻ thật về công ty TIANXINGYUN",
+    "content": "Mình không đánh giá cao cách quản lý tại CÔNG TY TNHH THƯƠNG MẠI TIANXINGYUN VIỆT NAM. Lãnh đạo thiếu tầm nhìn dài hạn, nhân sự thay đổi liên tục. Vị trí E-commerce Specialist nhưng công việc thực tế lại bao gồm rất nhiều việc không liên quan. Lương đúng như đăng nhưng không có thưởng hay phụ cấp thêm.",
+    "upvotes": 2,
+    "downvotes": 5,
+    "tags": ["e-commerce", "tianxingyun"]
+  },
+  {
+    "id": "13",
+    "userId": 3,
+    "companyId": 3,
+    "title": "Trải nghiệm làm Interior Designer tại Lux Decor",
+    "content": "Công ty Lux Decor có văn hóa sáng tạo và hỗ trợ nhân viên phát triển cá nhân rất tốt. Đồng nghiệp thân thiện, sẵn sàng hỗ trợ nhau trong các dự án. Tuy nhiên, deadline khá gắt và thi công ngoài thực tế đôi khi gặp nhiều khó khăn ngoài tầm kiểm soát. Nhưng nếu bạn yêu thiết kế và chịu được áp lực thì nơi đây rất đáng cân nhắc.",
+    "upvotes": 7,
+    "downvotes": 0,
+    "tags": ["lux decor", "interior"]
+  },
+  {
+    "id": "14",
+    "userId": 4,
+    "companyId": 4,
+    "title": "Review tiêu cực về Green Bio",
+    "content": "Mình từng làm ở CÔNG TY TNHH CÔNG NGHỆ SẠCH GREEN BIO khoảng 6 tháng và quyết định nghỉ vì môi trường làm việc không phù hợp. Cơ hội học hỏi khá hạn chế, không có mentor rõ ràng cho kỹ sư mới. Công ty cũng ít đầu tư cho thiết bị nghiên cứu. Lương chi trả đúng hạn nhưng không có bonus hay cơ hội phát triển lâu dài.",
+    "upvotes": 1,
+    "downvotes": 6,
+    "tags": ["green bio", "environment"]
+  },
+  {
+    "id": "15",
+    "userId": 4d96,
+    "companyId": 5,
+    "title": "CNV Holdings là lựa chọn ổn cho ngành BĐS",
+    "content": "Mình đánh giá cao môi trường làm việc tại CNV HOLDINGS. Với vị trí Real Estate Analyst, mình được tham gia vào nhiều dự án thực tế, học hỏi trực tiếp từ các anh chị có kinh nghiệm lâu năm. Lương không quá cao nhưng ổn định, có thêm một số khoản thưởng theo dự án. Văn phòng hiện đại, làm việc thoải mái.",
+    "upvotes": 5,
+    "downvotes": 1,
+    "tags": ["bất động sản", "cnv"]
+  },
+  {
+    "id": "16",
+    "userId": 6,
+    "companyId": 6,
+    "title": "Eximbank – chuyên nghiệp nhưng nhiều quy trình",
+    "content": "Ngân hàng Eximbank có hệ thống quy trình làm việc rất rõ ràng và chặt chẽ. Đây là nơi tốt để học hỏi về nghiệp vụ ngân hàng chuyên sâu. Tuy nhiên, do đặc thù doanh nghiệp nhà nước, mọi thứ đều cần báo cáo qua nhiều cấp nên khá chậm và máy móc. Nếu bạn thích sáng tạo thì sẽ cảm thấy hơi tù túng.",
+    "upvotes": 4,
+    "downvotes": 2,
+    "tags": ["eximbank", "ngân hàng"]
+  },
+  {
+    "id": "17",
+    "userId": 7,
+    "companyId": 7,
+    "title": "Prep - môi trường startup năng động",
+    "content": "Làm việc tại Prep rất thú vị, đặc biệt nếu bạn yêu thích giáo dục công nghệ. Văn hoá mở, ai cũng có thể đóng góp ý tưởng. Lãnh đạo trẻ, nhiệt huyết. Điểm trừ là khối lượng công việc đôi khi nhiều, phải tự học rất nhiều mới theo kịp tiến độ. Nhưng bù lại, cảm giác phát triển bản thân rõ rệt.",
+    "upvotes": 8,
+    "downvotes": 0,
+    "tags": ["prep", "education", "tech"]
+  },
+  {
+    "id": "118",
+    "userId": 4d96,
+    "companyId": 8,
+    "title": "Rich Nguyen Academy còn nhiều vấn đề nội bộ",
+    "content": "Công ty có định hướng tốt về đào tạo kỹ năng mềm, nhưng cách quản lý còn khá thủ công. Nhiều khi sắp xếp lớp học và phân công không hợp lý, khiến nhân viên phải làm việc quá sức. Chính sách thưởng và đãi ngộ chưa thực sự hấp dẫn. Môi trường làm việc thân thiện nhưng thiếu chuyên nghiệp.",
+    "upvotes": 2,
+    "downvotes": 4,
+    "tags": ["rich nguyen", "đào tạo"]
+  },
+  {
+    "id": "19",
+    "userId": 9,
+    "companyId": 9,
+    "title": "Làm việc tại METUB rất đáng giá",
+    "content": "Công ty METUB là nơi lý tưởng nếu bạn yêu thích mảng nội dung số và làm việc với các nhà sáng tạo. Dự án thú vị, đặc biệt là được tiếp xúc với nhiều kênh YouTube nổi tiếng. Đồng nghiệp trẻ trung, sáng tạo, làm việc hiệu quả. Tuy nhiên, guồng quay công việc rất nhanh, đôi khi hơi áp lực.",
+    "upvotes": 9,
+    "downvotes": 1,
+    "tags": ["metub", "youtube", "content"]
+  },
+  {
+    "id": "20",
+    "userId": 11c5,
+    "companyId": 10,
+    "title": "Á Châu Logistics – chỉ phù hợp làm tạm thời",
+    "content": "Làm Điều phối Vận tải tại Á Châu Logistics khá cực, vì thường xuyên phải theo dõi tiến độ hàng hóa 24/7. Công ty thiếu nhân sự, nên một người làm việc của hai người. Chính sách không rõ ràng, thưởng Tết rất ít. Phù hợp nếu bạn cần công việc tạm thời nhưng không nên gắn bó lâu dài.",
+    "upvotes": 1,
+    "downvotes": 6,
+    "tags": ["logistics", "vận tải", "á châu"]
   }
 ]
 ,
