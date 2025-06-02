@@ -214,9 +214,9 @@
               "Kỷ luật",
               "Tổ chức tốt"
             ],
-            "working_type": "Full-time",
+            "working_type": "Part-time",
             "working_mode": "Offline",
-            "salary": "10,000,000 - 14,000,000 VND",
+            "salary": "500,000 - 2,000,000 VND",
             "posted_time": "3 ngày trước",
             "working_hours_per_week": "40h/tuần",
             "student_target": {
@@ -224,7 +224,7 @@
               "majors": "Logistics, Quản lý công nghiệp, Kinh tế vận tải"
             },
             "field": "Logistics",
-            "language_requirement": "Tiếng Anh cơ bản, Tiếng Nhật lợi thế",
+            "language_requirement": "Tiếng Anh đọc hiểu, Tiếng Nhật, Tiếng Hàn, Không yêu cầu",
             "compensation_support": "Có phụ cấp ăn trưa 800,000 VND"
           },
           {
@@ -246,7 +246,7 @@
             ],
             "working_type": "Part-time",
             "working_mode": "Offline",
-            "salary": "Tính theo đơn hàng (5,000 VND/đơn)",
+            "salary": "500,000 - 2,000,000 VND",
             "posted_time": "1 ngày trước",
             "working_hours_per_week": "<20h/tuần",
             "student_target": {
@@ -440,7 +440,7 @@
             ],
             "working_type": "Full-time",
             "working_mode": "Offline",
-            "salary": "10,000,000 - 14,000,000 VND",
+            "salary": "800,000 - 1,400,000 VND",
             "posted_time": "3 ngày trước",
             "working_hours_per_week": "40h/tuần",
             "student_target": {
@@ -448,7 +448,7 @@
               "majors": "Logistics, Quản lý công nghiệp, Kinh tế vận tải"
             },
             "field": "Logistics",
-            "language_requirement": "Tiếng Anh cơ bản",
+            "language_requirement": "Tiếng Anh cơ bản, Tiếng Nhật lợi thế",
             "compensation_support": "Có phụ cấp ăn trưa 800,000 VND"
           },
           {
@@ -659,7 +659,7 @@
             ],
             "working_type": "Full-time",
             "working_mode": "Offline",
-            "salary": "Lương cứng + hoa hồng (trung bình 20,000,000 - 40,000,000 VND)",
+            "salary": "6,000,000 - 40,000,000 VND",
             "posted_time": "2 ngày trước",
             "working_hours_per_week": "40h/tuần",
             "student_target": {
@@ -673,7 +673,7 @@
           {
             "id": "17fc90ec-50d3-426c-993c-9ccd8eba5220",
             "location": "Đống Đa",
-            "title": "Marketing Specialist",
+            "title": "Marketing Specialist Intern",
             "description": "Thực hiện chiến dịch quảng bá dự án, quản lý kênh truyền thông và nội dung số.",
             "technical_skills": [
               "Digital marketing",
@@ -689,8 +689,8 @@
               "Tư duy chiến lược"
             ],
             "working_type": "Full-time",
-            "working_mode": "Hybrid",
-            "salary": "12,000,000 - 18,000,000 VND",
+            "working_mode": "Online",
+            "salary": "500,000 - 2,000,000 VND",
             "posted_time": "5 ngày trước",
             "working_hours_per_week": "40h/tuần",
             "student_target": {
@@ -721,7 +721,7 @@
           {
             "id": "92003a60-1a39-42bc-a8ac-486507f670ff",
             "location": "Tây Hồ",
-            "title": "Interior Designer",
+            "title": "Interior Designer Intern",
             "description": "Thiết kế các không gian nội thất cao cấp cho các dự án nhà ở, văn phòng và công trình thương mại.",
             "technical_skills": [
               "AutoCAD",
@@ -739,8 +739,8 @@
               "Chịu được áp lực công việc"
             ],
             "working_type": "Full-time",
-            "working_mode": "Offline",
-            "salary": "10,000,000 - 15,000,000 VND",
+            "working_mode": "Online",
+            "salary": "500,000 - 2,000,000 VND",
             "posted_time": "2 ngày trước",
             "working_hours_per_week": "40h/tuần",
             "student_target": {
@@ -748,7 +748,7 @@
               "majors": "Kiến trúc, Thiết kế nội thất"
             },
             "field": "Thiết kế nội thất",
-            "language_requirement": "Tiếng Anh đọc hiểu",
+            "language_requirement": "Tiếng Anh đọc hiểu, Tiếng Nhật, Tiếng Hàn, Không yêu cầu",
             "compensation_support": "Có phụ cấp ăn trưa"
           },
           {
@@ -2038,8 +2038,8 @@
               "Tinh thần trách nhiệm cao"
             ],
             "working_type": "Full-time",
-            "working_mode": "On-site",
-            "salary": "8,000,000 - 12,000,000 VND",
+            "working_mode": "Offline",
+            "salary": "500,000 - 1,200,000 VND",
             "posted_time": "5 ngày trước",
             "working_hours_per_week": "44h/tuần",
             "student_target": {
@@ -2047,7 +2047,7 @@
               "majors": "Cơ khí, Điện tử, Công nghệ kỹ thuật"
             },
             "field": "Kiểm soát chất lượng",
-            "language_requirement": "Tiếng Anh cơ bản",
+            "language_requirement": "Không yêu cầu, Tiếng Hàn",
             "compensation_support": "Bảo hiểm, thưởng hiệu quả"
           },
           {
@@ -3610,7 +3610,7 @@
             ],
             "working_type": "Internship",
             "working_mode": "Offline",
-            "salary": "2,000,000 - 3,000,000 VND",
+            "salary": "500,000 - 1,000,000 VND",
             "posted_time": "4 ngày trước",
             "working_hours_per_week": "20-30h/tuần",
             "student_target": {
@@ -4848,7 +4848,7 @@
               "majors": "Sư phạm Tiếng Anh, Ngôn ngữ Anh"
             },
             "field": "Giảng dạy Tiếng Anh",
-            "language_requirement": "Tiếng Anh nâng cao",
+            "language_requirement": "Tiếng Anh nâng cao, Tiếng Nhật, Tiếng Hàn, Không yêu cầu",
             "compensation_support": "Hỗ trợ đào tạo kỹ năng giảng dạy online"
           },
           {
@@ -4869,9 +4869,9 @@
               "Năng động",
               "Kiên trì"
             ],
-            "working_type": "Full-time",
+            "working_type": "Part-time",
             "working_mode": "Online",
-            "salary": "10,000,000 - 15,000,000 VND + hoa hồng",
+            "salary": "2,000,000 - 4,000,000 VND",
             "posted_time": "2 ngày trước",
             "working_hours_per_week": "40h/tuần",
             "student_target": {
@@ -4879,7 +4879,7 @@
               "majors": "Marketing, Quản trị kinh doanh"
             },
             "field": "Telemarketing",
-            "language_requirement": "Tiếng Anh cơ bản",
+            "language_requirement": "Tiếng Anh cơ bản, Tiếng Nhật, Tiếng Hàn, Không yêu cầu",
             "compensation_support": "Phụ cấp điện thoại 500,000 VND/tháng"
           },
           {
@@ -4950,7 +4950,7 @@
             ],
             "working_type": "Full-time",
             "working_mode": "Offline",
-            "salary": "20,000,000 - 40,000,000 VND",
+            "salary": "4,000,000 - 6,000,000 VND",
             "posted_time": "3 ngày trước",
             "working_hours_per_week": "40h/tuần",
             "student_target": {
@@ -4958,7 +4958,7 @@
               "majors": "Không yêu cầu"
             },
             "field": "Bán hàng ô tô",
-            "language_requirement": "Tiếng Anh cơ bản",
+            "language_requirement": "Tiếng Anh cơ bản, Tiếng Nhật, Tiếng Hàn, Không yêu cầu",
             "compensation_support": "Hỗ trợ hoa hồng bán hàng và phụ cấp ăn trưa 800,000 VND/tháng"
           },
           {
@@ -5059,8 +5059,8 @@
               "Kiên trì"
             ],
             "working_type": "Full-time",
-            "working_mode": "Offline",
-            "salary": "12,000,000 - 20,000,000 VND + hoa hồng",
+            "working_mode": "Online",
+            "salary": "4,000,000 - 6,000,000 VND",
             "posted_time": "3 ngày trước",
             "working_hours_per_week": "40h/tuần",
             "student_target": {
@@ -5068,7 +5068,7 @@
               "majors": "Quản trị kinh doanh, Marketing, Logistics"
             },
             "field": "Kinh doanh",
-            "language_requirement": "Tiếng Anh cơ bản",
+            "language_requirement": "Tiếng Anh cơ bản, Tiếng Nhật, Tiếng Hàn, Không yêu cầu",
             "compensation_support": "Hỗ trợ đi lại 1,000,000 VND/tháng"
           },
           {
@@ -5168,9 +5168,9 @@
               "Năng động",
               "Chủ động"
             ],
-            "working_type": "Full-time",
-            "working_mode": "Hybrid",
-            "salary": "12,000,000 - 18,000,000 VND + hoa hồng",
+            "working_type": "Part-time",
+            "working_mode": "Online",
+            "salary": "4,000,000 - 6,000,000 VND",
             "posted_time": "3 ngày trước",
             "working_hours_per_week": "40h/tuần",
             "student_target": {
@@ -5178,7 +5178,7 @@
               "majors": "Tài chính, Ngân hàng, Quản trị kinh doanh"
             },
             "field": "Tư vấn tài chính",
-            "language_requirement": "Tiếng Anh trung cấp",
+            "language_requirement": "Tiếng Anh trung cấp, Tiếng Nhật, Tiếng Hàn, Không yêu cầu",
             "compensation_support": "Hỗ trợ đào tạo sản phẩm và phụ cấp đi lại 1,000,000 VND/tháng"
           },
           {
@@ -5263,7 +5263,7 @@
           {
             "id": "k0l1m2n3-4567-8j9k-l0m1-2n3op5678901",
             "location": "Quận 1, TP. Hồ Chí Minh",
-            "title": "Chuyên Viên Khách Hàng Cá Nhân",
+            "title": "Chuyên Viên Khách Hàng Cá Nhân Intern",
             "description": "Tư vấn và cung cấp các giải pháp tài chính như vay vốn, tiết kiệm, và thẻ tín dụng cho khách hàng cá nhân, xây dựng mối quan hệ lâu dài với khách hàng.",
             "technical_skills": [
               "Tư vấn tài chính",
@@ -5278,9 +5278,9 @@
               "Năng động",
               "Thân thiện"
             ],
-            "working_type": "Full-time",
+            "working_type": "Part-time",
             "working_mode": "Offline",
-            "salary": "12,000,000 - 20,000,000 VND + hoa hồng",
+            "salary": "4,000,000 - 6,000,000 VND",
             "posted_time": "3 ngày trước",
             "working_hours_per_week": "40h/tuần",
             "student_target": {
@@ -5288,7 +5288,7 @@
               "majors": "Tài chính, Ngân hàng, Quản trị kinh doanh"
             },
             "field": "Quan hệ khách hàng cá nhân",
-            "language_requirement": "Tiếng Anh trung cấp",
+            "language_requirement": "Tiếng Anh trung cấp, Tiếng Nhật, Tiếng Hàn, Không yêu cầu",
             "compensation_support": "Hỗ trợ đào tạo sản phẩm và phụ cấp đi lại 1,000,000 VND/tháng"
           },
           {
@@ -5340,7 +5340,7 @@
               "Kiên trì",
               "Chuyên nghiệp"
             ],
-            "working_type": "Full-time",
+            "working_type": "Part-time",
             "working_mode": "Offline",
             "salary": "15,000,000 - 25,000,000 VND + hoa hồng",
             "posted_time": "4 ngày trước",
@@ -5350,7 +5350,7 @@
               "majors": "Tài chính, Ngân hàng, Quản trị kinh doanh"
             },
             "field": "Quan hệ khách hàng doanh nghiệp",
-            "language_requirement": "Tiếng Anh trung cấp",
+            "language_requirement": "Tiếng Anh trung cấp, Tiếng Nhật, Tiếng Hàn, Không yêu cầu",
             "compensation_support": "Hỗ trợ đào tạo và phụ cấp ăn trưa 800,000 VND/tháng"
           }
         ]
@@ -5498,8 +5498,8 @@
               "Chú ý chi tiết",
               "Tư duy logic"
             ],
-            "working_type": "Full-time",
-            "working_mode": "Hybrid",
+            "working_type": "Part-time",
+            "working_mode": "Online",
             "salary": "20,000,000 - 35,000,000 VND",
             "posted_time": "3 ngày trước",
             "working_hours_per_week": "40h/tuần",
@@ -5508,7 +5508,7 @@
               "majors": "Khoa học dữ liệu, Thống kê, Tài chính"
             },
             "field": "Phân tích dữ liệu",
-            "language_requirement": "Tiếng Anh nâng cao",
+            "language_requirement": "Tiếng Anh nâng cao, Tiếng Nhật, Tiếng Hàn, Không yêu cầu",
             "compensation_support": "Hỗ trợ laptop và phụ cấp học tập 1,200,000 VND/tháng"
           },
           {
@@ -5609,7 +5609,7 @@
               "Tư duy chiến lược"
             ],
             "working_type": "Full-time",
-            "working_mode": "Hybrid",
+            "working_mode": "Online",
             "salary": "25,000,000 - 40,000,000 VND",
             "posted_time": "3 ngày trước",
             "working_hours_per_week": "40h/tuần",
@@ -5618,7 +5618,7 @@
               "majors": "Công nghệ thông tin, Quản trị kinh doanh, Marketing"
             },
             "field": "Phát triển sản phẩm",
-            "language_requirement": "Tiếng Anh nâng cao",
+            "language_requirement": "Tiếng Anh nâng cao, Tiếng Nhật, Tiếng Hàn, Không yêu cầu",
             "compensation_support": "Hỗ trợ đào tạo sản phẩm và phụ cấp đi lại 1,200,000 VND/tháng"
           },
           {
@@ -5671,7 +5671,7 @@
               "Quyết đoán"
             ],
             "working_type": "Full-time",
-            "working_mode": "Hybrid",
+            "working_mode": "Offline",
             "salary": "30,000,000 - 45,000,000 VND",
             "posted_time": "4 ngày trước",
             "working_hours_per_week": "40h/tuần",
@@ -5680,7 +5680,7 @@
               "majors": "Quản trị kinh doanh, Công nghệ thông tin, Quản lý dự án"
             },
             "field": "Quản lý dự án",
-            "language_requirement": "Tiếng Anh nâng cao",
+            "language_requirement": "Tiếng Anh nâng cao, Tiếng Nhật, Tiếng Hàn, Không yêu cầu",
             "compensation_support": "Hỗ trợ đào tạo chứng chỉ PMP và phụ cấp đi lại 1,500,000 VND/tháng"
           }
         ]
@@ -5718,8 +5718,8 @@
               "Năng động",
               "Đam mê sáng tạo"
             ],
-            "working_type": "Full-time",
-            "working_mode": "Hybrid",
+            "working_type": "Part-time",
+            "working_mode": "Offline",
             "salary": "18,000,000 - 30,000,000 VND",
             "posted_time": "3 ngày trước",
             "working_hours_per_week": "40h/tuần",
@@ -5728,7 +5728,7 @@
               "majors": "Marketing, Truyền thông, Quản trị kinh doanh"
             },
             "field": "Marketing",
-            "language_requirement": "Tiếng Anh nâng cao",
+            "language_requirement": "Tiếng Anh nâng cao, Tiếng Nhật, Tiếng Hàn, Không yêu cầu",
             "compensation_support": "Phụ cấp ăn trưa 800,000 VND/tháng"
           },
           {
