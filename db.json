@@ -311,7 +311,7 @@
     "tags": ["prep", "education", "tech"]
   },
   {
-    "id": "18",
+    "id": "118",
     "userId": "4d96",
     "companyId": 8,
     "title": "Rich Nguyen Academy còn nhiều vấn đề nội bộ",
@@ -342,7 +342,7 @@
   },
   {
     "id": "21",
-    "userId": 1,
+    "userId": "a648",
     "companyId": 1,
     "title": "Hành trình thực tập tại SoftWorld và QuantumDev",
     "content": "Thực tập tại SoftWorld (công ty outsource) và QuantumDev (product company) giúp tôi hiểu rõ sự khác biệt giữa làm \"theo đơn hàng\" và làm \"sản phẩm của chính mình\".\nSo sánh giữa hai công ty:\nSoftWorld thường xuyên đổi dự án, deadline gấp, áp lực cao.\nQuantumDev làm 1 sản phẩm lâu dài, nên ưu tiên chất lượng và sáng tạo.\nSoftWorld trả lương cao hơn nhưng ít có cảm giác gắn bó.",
@@ -356,7 +356,7 @@
   },
   {
     "id": "22",
-    "userId": 1,
+    "userId": "a648",
     "companyId": 2,
     "title": "Công ty truyền thống vs. công ty Agile - Từ trải nghiệm của tôi",
     "content": "Trải nghiệm thực tập của tôi tại hai nơi: một công ty theo mô hình truyền thống (Matrix Co.) và một startup áp dụng Agile (QuickSprint). Đây là những điều tôi rút ra được.\nMatrix Co. có báo cáo hằng ngày và cấp bậc rõ ràng.\nQuickSprint thì họp stand-up mỗi sáng, mọi người đều có quyền lên tiếng.\nVề tốc độ, QuickSprint nhanh hơn nhưng đôi lúc hơi hỗn loạn.",
@@ -370,7 +370,7 @@
   },
   {
     "id": "23",
-    "userId": 1,
+    "userId": "11c5",
     "companyId": 3,
     "title": "CodeLine vs. AppNest: Lương cao hay thời gian linh hoạt",
     "content": "Lương: CodeLine trả 6 triệu/tháng nhưng yêu cầu làm full-time\nThời gian: AppNest cho làm hybrid + chọn lịch\nDự án: CodeLine phát triển dashboard nội bộ, AppNest làm app thương mại điện tử\nÁp lực: CodeLine (8/10), AppNest (5/10)",
@@ -384,7 +384,7 @@
   },
   {
     "id": "24",
-    "userId": 1,
+    "userId": "4d96",
     "companyId": 4,
     "title": "Intern tại GenAI Lab vs. PixelHouse - Kỹ thuật sâu hay thiết kế đẹp?",
     "content": "Kỹ thuật: GenAI Lab cho làm với PyTorch, NLP\nThiết kế: PixelHouse tập trung vào UI/UX app thời trang\nĐịnh hướng: GenAI dành cho AI engineer tương lai, PixelHouse thiên về designer\nĐào tạo: GenAI khá tự học, PixelHouse có mentor UX hướng dẫn kỹ",
@@ -398,7 +398,7 @@
   },
   {
     "id": "25",
-    "userId": 1,
+    "userId": "4d96",
     "companyId": 5,
     "title": "Làm việc tại GreenTech - Công ty công nghệ xanh",
     "content": "GreenTech là công ty khởi nghiệp trong lĩnh vực công nghệ xanh, chuyên phát triển các giải pháp tiết kiệm năng lượng.\nĐiểm cộng:\n Môi trường làm việc sáng tạo, thân thiện với môi trường.\n Cơ hội học hỏi về công nghệ mới và bền vững.\n Đội ngũ trẻ trung, nhiệt huyết.\nĐiểm trừ:\n Làm việc trong startup nên có thể gặp khó khăn về tài chính.\n Quy trình làm việc chưa ổn định.",
@@ -411,7 +411,7 @@
   },
   {
     "id": "26",
-    "userId": 1,
+    "userId": "a648",
     "companyId": 6,
     "title": "So sánh startup học thuật và công ty thương mại: R&D Hub vs. BizSoft",
     "content": "R&D: R&D Hub chủ yếu viết thuật toán, mô phỏng, paper\nProduct: BizSoft làm ERP, CRM phục vụ doanh nghiệp\nTeam: R&D Hub ít họp, tự quản; BizSoft họp liên tục, có quy trình QA rõ\nHọc được: R&D thiên về kỹ thuật, BizSoft thiên về teamwork & quy trình",
@@ -425,7 +425,7 @@
   },
   {
     "id": "27",
-    "userId": 1,
+    "userId": "11c5",
     "companyId": 7,
     "title": "Trải nghiệm làm việc tại FoodTech - Công ty công nghệ thực phẩm",
     "content": "FoodTech là công ty khởi nghiệp trong lĩnh vực công nghệ thực phẩm, chuyên phát triển các giải pháp giao hàng và quản lý nhà hàng.\nĐiểm cộng:\n Môi trường làm việc sáng tạo, thân thiện với môi trường.\n Cơ hội học hỏi về công nghệ mới và bền vững.\n Đội ngũ trẻ trung, nhiệt huyết.\nĐiểm trừ:\n Làm việc trong startup nên có thể gặp khó khăn về tài chính.\n Quy trình làm việc chưa ổn định.",
@@ -438,7 +438,7 @@
   },
   {
     "id": "28",
-    "userId": 1,
+    "userId": "a648",
     "companyId": 8,
     "title": "Tôi thực tập ở DigiNext (startup) và CodeLynx (tập đoàn)",
     "content": "Môi trường làm việc: DigiNext năng động, làm việc chung với sếp và core team. CodeLynx chuyên nghiệp, quy trình rõ, nhiều bộ phận riêng biệt.\nCông việc: Ở DigiNext tôi làm fullstack một trang dashboard nhỏ. Ở CodeLynx tôi làm frontend theo ticket được giao.\nHỗ trợ: DigiNext không có mentor chính thức, nhưng mọi người trong team rất sẵn sàng giúp. CodeLynx có mentor rõ ràng, check-in theo tuần.\nCông nghệ: DigiNext dùng Next.js và MongoDB. CodeLynx dùng Vue 2 và Laravel.\nKết luận: DigiNext cho trải nghiệm “làm thật” và học nhanh. CodeLynx giúp hiểu quy trình bài bản trong môi trường lớn.",
@@ -452,7 +452,7 @@
   },
   {
     "id": "29",
-    "userId": 1,
+    "userId": "11c5",
     "companyId": 9,
     "title": "So sánh kỳ thực tập tại EcomNext và OrderStack",
     "content": "Tôi thực tập frontend tại EcomNext trong 2 tháng và backend tại OrderStack 1 tháng. EcomNext chuyên về thương mại điện tử, tech stack là React + Redux, môi trường chuyên nghiệp, tài liệu rõ ràng. Tuy nhiên, họ ít dành thời gian mentoring cho intern. Trong khi đó, OrderStack là startup còn nhỏ, chỉ có 8 người, nhưng sếp trực tiếp hướng dẫn, review code mỗi tuần. Làm ở OrderStack áp lực hơn do phải đụng vào API phức tạp và viết test, nhưng tôi học được nhiều. EcomNext phù hợp nếu bạn cần môi trường ổn định để làm đẹp CV. OrderStack tốt nếu bạn muốn trải nghiệm cọ xát và học nhanh.",
@@ -466,7 +466,7 @@
   },
   {
     "id": "30",
-    "userId": 1,
+    "userId": "4d96",
     "companyId": 10,
     "title": "Intern tại CloudBase vs. KikiWare",
     "content": "CloudBase là công ty cung cấp giải pháp cloud-native, tôi thực tập ở đây 2 tháng theo chương trình liên kết với trường. Họ có nhiều bài tập định kỳ, môi trường kỷ luật, nhưng hơi ít cơ hội đụng vào hệ thống thật. Trong khi đó, tại KikiWare – một công ty phát triển app mobile cho thị trường Nhật – tôi được giao xử lý bug thật và viết UI bằng Flutter. KikiWare không có tài liệu nội bộ rõ ràng như CloudBase, nhưng team hỗ trợ nhiệt tình, thậm chí mentor còn gọi trực tiếp để hướng dẫn. Nếu bạn thích tìm hiểu lý thuyết hệ thống và làm việc đúng quy trình, hãy chọn CloudBase. Còn nếu muốn va chạm thực tế, giải quyết vấn đề thật, KikiWare phù hợp hơn.",
