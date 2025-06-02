@@ -63,7 +63,7 @@
   ],
   "posts": [
     {
-      "id": "1",
+      "id": "1111",
       "userId": 1,
       "companyId": 1,
       "title": "Trải nghiệm thực tập tại FPT Software",
@@ -76,7 +76,7 @@
       ]
     },
     {
-      "id": "2",
+      "id": "1222",
       "userId": 1,
       "companyId": 1,
       "title": "Có nên chọn FPT làm nơi thực tập không?",
@@ -110,17 +110,134 @@
     "downvotes": 0,
     "createdAt": "2025-05-19T12:07:55.427Z"
   },
-    {
-    "id": "8",
+     {
+    "id": "1",
     "userId": 1,
     "companyId": 1,
     "title": "Review về quá trình làm việc tại FPT Software?",
-    "content": "Mình từng có thời gian làm việc tại FPT Software, một trong những công ty con lớn nhất của tập đoàn FPT. Trải nghiệm nhìn chung là tích cực, nhưng cũng có một số điểm cần cân nhắc nếu bạn đang muốn apply vào đây.\nĐiểm cộng:\n✅ Môi trường trẻ, năng động, rất phù hợp với các bạn mới ra trường hoặc mới vào ngành IT. Nhiều chương trình đào tạo, đặc biệt là Fresher Program, giúp nâng cao kiến thức và kỹ năng khá nhanh.\n✅ Dự án đa dạng, có nhiều cơ hội làm việc với khách hàng nước ngoài như Nhật, Mỹ, Hàn. Nếu bạn biết ngoại ngữ tốt thì là một lợi thế lớn, dễ được phân vào các dự án ngon hơn.\n✅ Văn hóa công ty thoải mái, ít chính trị nội bộ, có nhiều hoạt động team building, văn nghệ, thể thao. Công ty cũng khá \"chịu chi\" cho các hoạt động cộng đồng và CSR.\n✅ Cơ hội thăng tiến rõ ràng, nếu bạn làm tốt, chủ động học hỏi và có tinh thần cầu tiến thì có thể lên cấp khá nhanh.",
+    "content": "Mình từng có thời gian làm việc tại FPT Software, một trong những công ty con lớn nhất của tập đoàn FPT. Trải nghiệm nhìn chung là tích cực, nhưng cũng có một số điểm cần cân nhắc nếu bạn đang muốn apply vào đây.\nĐiểm cộng:\n✅ Môi trường trẻ, năng động, phù hợp với người mới đi làm.\n✅ Nhiều chương trình đào tạo tốt như Fresher Program.\n✅ Cơ hội làm việc với khách hàng nước ngoài.\n✅ Văn hóa công ty thân thiện, nhiều hoạt động nội bộ.\nĐiểm trừ:\n❌ Áp lực deadline cao tùy dự án.\n❌ Mức lương khởi điểm chưa thực sự cạnh tranh so với mặt bằng quốc tế.",
     "upvotes": 4,
     "downvotes": 0,
     "tags": [
       "FPT",
-      "Viettel"
+      "IT"
+    ]
+  },
+  {
+    "id": "2",
+    "userId": 1,
+    "companyId": 2,
+    "title": "Trải nghiệm tại Toyota Việt Nam",
+    "content": "Toyota Việt Nam là doanh nghiệp lớn trong ngành ô tô, có môi trường làm việc chuyên nghiệp và quy trình quản lý bài bản.\nĐiểm cộng:\n✅ Quy trình làm việc chuẩn Nhật Bản, bài bản và chuyên nghiệp.\n✅ Mức lương ổn định, đãi ngộ khá tốt.\n✅ Có nhiều cơ hội tiếp xúc với công nghệ sản xuất hiện đại.\nĐiểm trừ:\n❌ Quy trình hơi cứng nhắc, khó thay đổi.\n❌ Áp lực KPI và chất lượng cao, cần cẩn thận khi làm việc.",
+    "upvotes": 3,
+    "downvotes": 0,
+    "tags": [
+      "Toyota",
+      "Logistics"
+    ]
+  },
+  {
+    "id": "3",
+    "userId": 1,
+    "companyId": 3,
+    "title": "Làm việc tại MISA - Công ty SaaS hàng đầu",
+    "content": "MISA là công ty chuyển đổi số nổi bật tại Việt Nam, môi trường công nghệ khá năng động.\nĐiểm cộng:\n✅ Công nghệ hiện đại, sản phẩm phong phú.\n✅ Môi trường startup, dễ học hỏi và thử sức.\n✅ Văn phòng đẹp, nhiều tiện ích nội bộ.\nĐiểm trừ:\n❌ Lương cho vị trí Logistics còn khá thấp.\n❌ Quy mô công ty lớn nên dễ bị phân tầng, khó giao tiếp với cấp trên.",
+    "upvotes": 2,
+    "downvotes": 1,
+    "tags": [
+      "MISA",
+      "Chuyển đổi số"
+    ]
+  },
+  {
+    "id": "4",
+    "userId": 1,
+    "companyId": 4,
+    "title": "Đánh giá về 247Express",
+    "content": "Công ty 247Express có hệ thống giao hàng khá tốt và phát triển nhanh trong ngành logistics.\nĐiểm cộng:\n✅ Lương ổn định và cạnh tranh trong ngành giao vận.\n✅ Quy trình vận hành hiệu quả, có hệ thống.\n✅ Cơ hội thăng tiến cao nếu gắn bó lâu dài.\nĐiểm trừ:\n❌ Làm việc trong môi trường giao vận nên đôi khi áp lực do tiến độ, đặc biệt mùa cao điểm.\n❌ Cần kỹ năng tổ chức và xử lý tình huống tốt.",
+    "upvotes": 4,
+    "downvotes": 0,
+    "tags": [
+      "Logistics",
+      "Giao hàng"
+    ]
+  },
+  {
+    "id": "5",
+    "userId": 1,
+    "companyId": 5,
+    "title": "Review công việc tại Đất Xanh Miền Nam",
+    "content": "Đây là công ty bất động sản có tiếng tại Việt Nam, môi trường làm việc khá năng động.\nĐiểm cộng:\n✅ Mức thu nhập hấp dẫn nếu đạt chỉ tiêu.\n✅ Đội ngũ trẻ, máu lửa, có tinh thần chốt deal cao.\n✅ Cơ hội học hỏi về thị trường bất động sản.\nĐiểm trừ:\n❌ Công việc phụ thuộc nhiều vào kết quả kinh doanh.\n❌ Áp lực doanh số cao, dễ burnout nếu không có kỹ năng sales tốt.",
+    "upvotes": 3,
+    "downvotes": 0,
+    "tags": [
+      "Bất động sản",
+      "Sales"
+    ]
+  },
+  {
+    "id": "6",
+    "userId": 1,
+    "companyId": 6,
+    "title": "Thực tập tại ORRO HOME",
+    "content": "Mình từng thực tập thiết kế nội thất tại ORRO HOME. Đây là công ty khá chuyên nghiệp về thiết kế không gian sống hiện đại.\nĐiểm cộng:\n✅ Học được nhiều về phong cách thiết kế cao cấp.\n✅ Sếp và đồng nghiệp nhiệt tình hỗ trợ.\n✅ Cơ hội va chạm thực tế nhiều nếu chủ động.\nĐiểm trừ:\n❌ Mức hỗ trợ thực tập còn khá thấp.\n❌ Khối lượng công việc đôi khi vượt quá kỳ vọng của một thực tập sinh.",
+    "upvotes": 2,
+    "downvotes": 0,
+    "tags": [
+      "Nội thất",
+      "Thực tập"
+    ]
+  },
+  {
+    "id": "7",
+    "userId": 1,
+    "companyId": 7,
+    "title": "Trải nghiệm làm việc tại Dược phẩm Đông Nam Á",
+    "content": "Công ty hoạt động trong lĩnh vực dược phẩm và thiết bị y tế, môi trường làm việc ổn định.\nĐiểm cộng:\n✅ Ngành y tế nên khá ổn định, ít biến động.\n✅ Lương và phúc lợi ở mức trung bình khá.\n✅ Môi trường chuyên môn, thích hợp cho người có chuyên ngành liên quan.\nĐiểm trừ:\n❌ Cơ hội thăng tiến không rõ ràng.\n❌ Chưa có nhiều hoạt động nội bộ nổi bật.",
+    "upvotes": 3,
+    "downvotes": 1,
+    "tags": [
+      "Dược",
+      "Y tế"
+    ]
+  },
+  {
+    "id": "8",
+    "userId": 1,
+    "companyId": 8,
+    "title": "Review vị trí Software Developer tại EDUPIA",
+    "content": "EDUPIA là công ty giáo dục công nghệ, đang phát triển nhanh chóng các sản phẩm học online.\nĐiểm cộng:\n✅ Sản phẩm công nghệ phục vụ giáo dục – ý nghĩa và nhân văn.\n✅ Lương cao so với mặt bằng chung.\n✅ Có cơ hội học hỏi về EdTech, AI trong giáo dục.\nĐiểm trừ:\n❌ Môi trường startup nên khá áp lực.\n❌ Quy trình làm việc đôi khi chưa chặt chẽ.",
+    "upvotes": 5,
+    "downvotes": 0,
+    "tags": [
+      "EdTech",
+      "Developer"
+    ]
+  },
+  {
+    "id": "9",
+    "userId": 1,
+    "companyId": 9,
+    "title": "Đánh giá CÔNG TY CỔ PHẦN NGƯỜI BẠN VÀNG",
+    "content": "Công ty cung cấp dịch vụ tư vấn tài chính cho cá nhân và doanh nghiệp.\nĐiểm cộng:\n✅ Lương và bonus tương đối tốt.\n✅ Môi trường tư vấn chuyên nghiệp.\n✅ Có cơ hội học nhiều về sản phẩm tài chính.\nĐiểm trừ:\n❌ Áp lực chỉ tiêu tư vấn cao.\n❌ Đôi khi gặp phải khách hàng khó tính, cần kỹ năng mềm tốt.",
+    "upvotes": 3,
+    "downvotes": 0,
+    "tags": [
+      "Tài chính",
+      "Tư vấn"
+    ]
+  },
+  {
+    "id": "10",
+    "userId": 1,
+    "companyId": 10,
+    "title": "Làm việc tại CARBON BILLIARDS có gì đặc biệt?",
+    "content": "Công ty chuyên cung cấp thiết bị bida và snooker, khá đặc thù và thú vị.\nĐiểm cộng:\n✅ Sản phẩm ngách nên ít cạnh tranh.\n✅ Môi trường thân thiện, ít áp lực.\n✅ Có cơ hội tìm hiểu thị trường giải trí niche.\nĐiểm trừ:\n❌ Cơ hội phát triển nghề nghiệp không quá rộng.\n❌ Sản phẩm đặc thù nên không phải ai cũng phù hợp.",
+    "upvotes": 2,
+    "downvotes": 0,
+    "tags": [
+      "Bida",
+      "Sales"
     ]
   }
 ]
