@@ -384,7 +384,77 @@
       "userId": "siuuu",
       "content": "mình cũng muốn apply",
       "createdAt": "2025-05-19T12:06:26.017Z"
-    }
+    },
+      {
+    "id": "1749200000001",
+    "postId": "11",
+    "userId": "alice99",
+    "content": "Nghe môi trường ổn áp quá, cảm ơn bạn chia sẻ nha!",
+    "createdAt": "2025-06-03T09:15:00.000Z"
+  },
+  {
+    "id": "1749200000002",
+    "postId": "12",
+    "userId": "minhduc123",
+    "content": "Không ngờ công ty lại chậm lương, hơi lo thật!",
+    "createdAt": "2025-06-03T09:16:00.000Z"
+  },
+  {
+    "id": "1749200000003",
+    "postId": "13",
+    "userId": "thaohoa",
+    "content": "Mình từng làm nội thất, chắc apply thử Lux Decor xem sao.",
+    "createdAt": "2025-06-03T09:17:00.000Z"
+  },
+  {
+    "id": "1749200000004",
+    "postId": "14",
+    "userId": "ecogreen",
+    "content": "Thấy lương ổn mà làm về môi trường thì cũng ý nghĩa nữa.",
+    "createdAt": "2025-06-03T09:18:00.000Z"
+  },
+  {
+    "id": "1749200000005",
+    "postId": "15",
+    "userId": "ngocanh88",
+    "content": "CNV HOLDINGS có vẻ đầu tư bài bản đấy!",
+    "createdAt": "2025-06-03T09:19:00.000Z"
+  },
+  {
+    "id": "1749200000006",
+    "postId": "16",
+    "userId": "longvu",
+    "content": "Eximbank giờ vẫn tuyển nhiều không nhỉ?",
+    "createdAt": "2025-06-03T09:20:00.000Z"
+  },
+  {
+    "id": "1749200000007",
+    "postId": "17",
+    "userId": "khanhtran",
+    "content": "Prep công nghệ giáo dục thì chắc ổn cho dev muốn thử sức lĩnh vực mới.",
+    "createdAt": "2025-06-03T09:21:00.000Z"
+  },
+  {
+    "id": "1749200000008",
+    "postId": "118",
+    "userId": "mrbin",
+    "content": "Rich Nguyen có vẻ nghiêng về kỹ năng mềm nhiều, hợp cho ai đang đi làm.",
+    "createdAt": "2025-06-03T09:22:00.000Z"
+  },
+  {
+    "id": "1749200000009",
+    "postId": "19",
+    "userId": "lyhuong",
+    "content": "Nghe METUB giống dạng start-up truyền thông, thú vị đấy!",
+    "createdAt": "2025-06-03T09:23:00.000Z"
+  },
+  {
+    "id": "1749200000010",
+    "postId": "20",
+    "userId": "quocbao99",
+    "content": "Logistics lương hơi thấp mà công việc có vẻ căng.",
+    "createdAt": "2025-06-03T09:24:00.000Z"
+  }
   ],
   "votes": [
     {
