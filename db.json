@@ -544,8 +544,6 @@
     "content": "FPT có nhiều chương trình đào tạo rất hay đúng không mọi người?",
     "createdAt": "2025-05-16T19:15:00.000Z"
   },
-
-  // Comments cho companyId 2 (postId = "2")
   {
     "id": "7625",
     "postId": "2",
@@ -574,8 +572,6 @@
     "content": "Mình thấy quy trình hơi cứng nhắc thật, nhưng hiệu quả.",
     "createdAt": "2025-05-16T19:35:00.000Z"
   },
-
-  // Comments cho companyId 3 (postId = "3")
   {
     "id": "7629",
     "postId": "3",
@@ -604,8 +600,6 @@
     "content": "Công ty lớn nên đôi khi khó giao tiếp với cấp trên đúng thật.",
     "createdAt": "2025-05-16T19:55:00.000Z"
   },
-
-  // Comments cho companyId 4 (postId = "4")
   {
     "id": "7633",
     "postId": "4",
@@ -634,8 +628,6 @@
     "content": "Quy trình vận hành hiệu quả là điểm cộng lớn.",
     "createdAt": "2025-05-16T20:15:00.000Z"
   },
-
-  // Comments cho companyId 5 (postId = "5")
   {
     "id": "7637",
     "postId": "5",
