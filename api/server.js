@@ -487,7 +487,14 @@ server.get("/forum/posts", (req, res) => {
       const postComments = postCommentsAll.filter(
         (comment) => String(comment.postId) == String(post.id)
       );
-      const postVotes = votes.filter((vote) => vote.postId === post.id);
+      const postVotes = votes.filter((vote) => String(vote.postId) === String(post.id));
+      
+      // Combine existing upvotes/downvotes with actual votes
+      const actualUpvotes = postVotes.filter((v) => v.type === "upvote").length;
+      const actualDownvotes = postVotes.filter((v) => v.type === "downvote").length;
+      const baseUpvotes = post.upvotes || 0;
+      const baseDownvotes = post.downvotes || 0;
+      
       return {
         id: post.id,
         author: author?.name || "Unknown User",
@@ -506,9 +513,8 @@ server.get("/forum/posts", (req, res) => {
         content: post.content,
         title: post.title,
         tags: post.tags || [],
-        voteCount:
-          postVotes.filter((v) => v.type === "upvote").length -
-          postVotes.filter((v) => v.type === "downvote").length,
+        upvotes: baseUpvotes + actualUpvotes,
+        downvotes: baseDownvotes + actualDownvotes,
         commentCount: postComments.length,
       };
     });
@@ -607,17 +613,66 @@ server.post("/forum/votes", (req, res) => {
   try {
     const db = router.db;
     const { postId, userId, type } = req.body;
-    const newVote = {
-      id: Date.now().toString(),
-      postId,
-      userId,
-      type,
-      createdAt: new Date().toISOString(),
-    };
-    db.get("votes").push(newVote).write();
-    res.status(201).json(newVote);
+    
+    if (!postId || !userId || !type) {
+      return res.status(400).json({ 
+        success: false, 
+        message: "Thiếu thông tin vote" 
+      });
+    }
+    
+    // Kiểm tra xem user đã vote cho post này chưa
+    const existingVote = db.get("votes").find({ postId, userId }).value();
+    
+    if (existingVote) {
+      // Nếu đã vote rồi thì không cho vote nữa (dù cùng loại hay khác loại)
+      return res.json({ 
+        success: false, 
+        message: "Bạn đã vote cho bài viết này rồi", 
+        data: existingVote 
+      });
+    } else {
+      // Tạo vote mới
+      const newVote = {
+        id: Date.now().toString(),
+        postId,
+        userId,
+        type,
+        createdAt: new Date().toISOString(),
+      };
+      db.get("votes").push(newVote).write();
+      return res.status(201).json({ 
+        success: true, 
+        message: "Tạo vote thành công", 
+        data: newVote 
+      });
+    }
   } catch (error) {
     console.error("Error creating vote:", error);
+    res.status(500).json({ error: "Internal server error" });
+  }
+});
+
+// Get user's vote for posts
+server.get("/forum/user-votes", (req, res) => {
+  try {
+    const { userId } = req.query;
+    if (!userId) {
+      return res.status(400).json({ error: "userId is required" });
+    }
+    
+    const db = router.db;
+    const userVotes = db.get("votes").filter({ userId }).value();
+    
+    // Convert to object with postId as key for easier lookup
+    const voteMap = {};
+    userVotes.forEach(vote => {
+      voteMap[vote.postId] = vote.type;
+    });
+    
+    res.json(voteMap);
+  } catch (error) {
+    console.error("Error fetching user votes:", error);
     res.status(500).json({ error: "Internal server error" });
   }
 });
