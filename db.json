@@ -516,6 +516,154 @@
       "content": "nghe vui thế",
       "createdAt": "2025-05-19T12:03:47.899Z"
     },
+  {
+    "id": "7621",
+    "postId": "1",
+    "userId": "a648",
+    "content": "Mình cũng từng làm ở FPT, đồng ý với những điểm cộng này!",
+    "createdAt": "2025-05-16T19:00:00.000Z"
+  },
+  {
+    "id": "7622",
+    "postId": "1",
+    "userId": "b732",
+    "content": "Deadline hơi áp lực thật, nhưng môi trường rất năng động.",
+    "createdAt": "2025-05-16T19:05:00.000Z"
+  },
+  {
+    "id": "7623",
+    "postId": "1",
+    "userId": "c591",
+    "content": "Bạn nên cân nhắc kỹ lương khởi điểm trước khi apply.",
+    "createdAt": "2025-05-16T19:10:00.000Z"
+  },
+  {
+    "id": "7624",
+    "postId": "1",
+    "userId": "d813",
+    "content": "FPT có nhiều chương trình đào tạo rất hay đúng không mọi người?",
+    "createdAt": "2025-05-16T19:15:00.000Z"
+  },
+
+  // Comments cho companyId 2 (postId = "2")
+  {
+    "id": "7625",
+    "postId": "2",
+    "userId": "e414",
+    "content": "Toyota quy trình chuẩn Nhật rất tốt để học hỏi.",
+    "createdAt": "2025-05-16T19:20:00.000Z"
+  },
+  {
+    "id": "7626",
+    "postId": "2",
+    "userId": "f289",
+    "content": "Mức lương ổn định nhưng áp lực KPI khá cao.",
+    "createdAt": "2025-05-16T19:25:00.000Z"
+  },
+  {
+    "id": "7627",
+    "postId": "2",
+    "userId": "g375",
+    "content": "Có ai từng làm ở bộ phận sản xuất chia sẻ thêm với nhé.",
+    "createdAt": "2025-05-16T19:30:00.000Z"
+  },
+  {
+    "id": "7628",
+    "postId": "2",
+    "userId": "h901",
+    "content": "Mình thấy quy trình hơi cứng nhắc thật, nhưng hiệu quả.",
+    "createdAt": "2025-05-16T19:35:00.000Z"
+  },
+
+  // Comments cho companyId 3 (postId = "3")
+  {
+    "id": "7629",
+    "postId": "3",
+    "userId": "i632",
+    "content": "MISA startup nên nhiều cơ hội thử sức và học hỏi.",
+    "createdAt": "2025-05-16T19:40:00.000Z"
+  },
+  {
+    "id": "7630",
+    "postId": "3",
+    "userId": "j728",
+    "content": "Lương logistics thấp thật, cần cải thiện thêm.",
+    "createdAt": "2025-05-16T19:45:00.000Z"
+  },
+  {
+    "id": "7631",
+    "postId": "3",
+    "userId": "k584",
+    "content": "Văn phòng đẹp giúp làm việc thoải mái hơn rất nhiều.",
+    "createdAt": "2025-05-16T19:50:00.000Z"
+  },
+  {
+    "id": "7632",
+    "postId": "3",
+    "userId": "l937",
+    "content": "Công ty lớn nên đôi khi khó giao tiếp với cấp trên đúng thật.",
+    "createdAt": "2025-05-16T19:55:00.000Z"
+  },
+
+  // Comments cho companyId 4 (postId = "4")
+  {
+    "id": "7633",
+    "postId": "4",
+    "userId": "m812",
+    "content": "247Express phát triển nhanh, mình thấy lương ổn định.",
+    "createdAt": "2025-05-16T20:00:00.000Z"
+  },
+  {
+    "id": "7634",
+    "postId": "4",
+    "userId": "n234",
+    "content": "Áp lực mùa cao điểm làm việc khá căng thẳng.",
+    "createdAt": "2025-05-16T20:05:00.000Z"
+  },
+  {
+    "id": "7635",
+    "postId": "4",
+    "userId": "o523",
+    "content": "Cần kỹ năng xử lý tình huống thật tốt khi làm ở đây.",
+    "createdAt": "2025-05-16T20:10:00.000Z"
+  },
+  {
+    "id": "7636",
+    "postId": "4",
+    "userId": "p904",
+    "content": "Quy trình vận hành hiệu quả là điểm cộng lớn.",
+    "createdAt": "2025-05-16T20:15:00.000Z"
+  },
+
+  // Comments cho companyId 5 (postId = "5")
+  {
+    "id": "7637",
+    "postId": "5",
+    "userId": "q125",
+    "content": "Môi trường năng động, thu nhập hấp dẫn nếu đạt chỉ tiêu.",
+    "createdAt": "2025-05-16T20:20:00.000Z"
+  },
+  {
+    "id": "7638",
+    "postId": "5",
+    "userId": "r638",
+    "content": "Áp lực doanh số cao, cần kỹ năng sales thật tốt.",
+    "createdAt": "2025-05-16T20:25:00.000Z"
+  },
+  {
+    "id": "7639",
+    "postId": "5",
+    "userId": "s879",
+    "content": "Đội ngũ trẻ, máu lửa, tinh thần chốt deal cao đúng thật.",
+    "createdAt": "2025-05-16T20:30:00.000Z"
+  },
+  {
+    "id": "7640",
+    "postId": "5",
+    "userId": "t416",
+    "content": "Công việc phụ thuộc nhiều vào kết quả kinh doanh, nên cân nhắc.",
+    "createdAt": "2025-05-16T20:35:00.000Z"
+  },
     {
       "id": "1747656386017",
       "postId": "1",
